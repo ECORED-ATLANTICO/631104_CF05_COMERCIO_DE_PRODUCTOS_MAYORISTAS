@@ -201,7 +201,7 @@
                 img(src='@/assets/curso/tema3/t3-7.svg', alt='Texto que describa la imagen')
             .col-12.col-md-12.col-lg-8
               p La Ley 1266 de 2008, también conocida como Ley de Habeas Data, se aplica a todos los datos personales financieros, crediticios, comerciales y de servicios registrados en un banco de datos. En este sentido, la aplicación de la Ley 1266 de 2008 está encaminada a regular el uso de esa información y por tanto otro tipo de datos (por ejemplo: aquellos mantenidos en un ámbito exclusivamente personal o doméstico o lo que se incluyen en una historia clínica) se encuentran excluidos de la aplicación de esta norma. Para su consulta puede ingresar al siguiente enlace: 
-              a.anexo.mb-4.mb-lg-0(href="https://www.uiaf.gov.co/sistema_nacional_ala_cft/normatividad_sistema/leyes/ley_estatutaria_1266_2008" target="_blank")
+              a.anexo.mb-4.mb-lg-0(href="https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=34488" target="_blank")
                 .anexo__icono
                   img(src="@/assets/template/icono-link.svg")
                 .anexo__texto

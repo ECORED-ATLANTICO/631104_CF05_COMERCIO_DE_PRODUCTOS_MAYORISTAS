@@ -100,8 +100,8 @@
     color: white
   &_5
     .pasos-a__circle 
+      background-color: #9CA3AF !important
       div
-        background-color: $color-acento-botones !important
         color: $color-sistema-texto !important
     .text-end
       text-align: left !important 
@@ -134,6 +134,10 @@
       height: 279px
     @media screen and (max-width: 420px)
       height: auto
+  &_7_1
+    background-color: #ACFFF0
+    &::before
+      background-color: #00E7BF
   &_7
     background-color: #EAE6FF
     &::before
@@ -142,6 +146,11 @@
     background-color: #BEFFF4
     &::before
       background-color: #00E7BF
+  &_9_1
+    .tarjeta--azul.acordion__activo
+      background-color: #FFFAE0 
+    .tarjeta--azul
+      background-color: #F6F6F6
   &_9
     .tarjeta--azul.acordion__activo
       background-color: #FFF4BF 
@@ -249,16 +258,16 @@
     background-color: #F6F6F6
     border-radius: 10px
     .slyder-a__btn--atrs
-      background-color: #4A2EFC
+      background-color: #F4B400
       background-image: url("../assets/componentes/arrow1.svg") 
     .slyder-a__btn--sigt
-      background-color: #4A2EFC
+      background-color: #F4B400
       background-image: url("../assets/componentes/arrow1.svg")
     .slyder-a__bullets__item--active
-      background-color: #4A2EFC !important
-      border-color: #4A2EFC 
+      background-color: #F4B400 !important
+      border-color: #F4B400
     .slyder-a__bullets__item
-      background-color: #D6D6D6
+      background-color: #F4B400
   &_33
     background-color: #DBFFFA 
 .bg_grad-01
@@ -484,6 +493,7 @@
 .bg_grad-11
   position: relative
   .linea-tiempo-b__row, .linea-tiempo-b__icon
+    background-color: #F6F6F6 !important
     position: relative 
   &::before
     content: ''
@@ -638,5 +648,4 @@
 //LINEA DE TIEMPO B//
 .linea-tiempo-b__line:after
   border-left: 4px dotted #00E7BF
-.linea-tiempo-b__icon:after
-  background-color: #F6F6F6 !important
+ 

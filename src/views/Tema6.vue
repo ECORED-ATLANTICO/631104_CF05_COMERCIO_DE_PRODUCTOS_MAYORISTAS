@@ -236,11 +236,11 @@
       .h2 6.4 Garantía y normatividad
     
     .row.mb-5.justify-content-center
-      .col-12.col-md-6.d-flex.align-items-center.bg_grad-12.mb-3.mb-md-0(data-aos="fade-right")
+      .col-12.col-md-12.col-lg-6.order-2.order-lg-1.d-flex.align-items-center.bg_grad-12.mb-3.mb-md-0(data-aos="fade-right")
         div
           p El diseño de las garantías y normas de la empresa  en cuanto al consumo de sus bienes y servicios es de vital importancia en cuanto a mercados se habla, es aquí donde el consumidor final o las empresas que sirven de intermediarios sienten cercanía, empatía y seguridad con la marca, estas garantías deben ser claras, medibles, concisas y muy específicas de acuerdo al producto o bien ofertado.
           p.mb-0 Cada empresa tiene consigo sus propias políticas, algunas regidas por la ley como las garantías de los productos electrónicos, ya que estas deben ser mayores a un año, tanto en los aspectos de cambio, como en la identificación de cuáles podrían ser las razones viables para cambio de un producto. 
-      .col-12.col-md-4(data-aos="fade-left")
+      .col-12.col-md-6.col-lg-4.order-1.order-lg-2.mb-5(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema6/t6-27.png', alt='Texto que describa la imagen')
     
@@ -266,11 +266,11 @@
     .row.mb-5.justify-content-center
       .col-12.col-md-10(data-aos="flip-up")
         .bgr_30.p-5
-          .row  
-            .col-12.col-md-4.mb-3.mb-md-0
+          .row.justify-content-center  
+            .col-12.col-md-6.col-lg-4.mb-3
               figure
                 img(src='@/assets/curso/tema6/t6-29.svg', alt='Texto que describa la imagen')
-            .col-12.col-md-8
+            .col-12.col-md-12-col-lg-8
               p En el siguiente video podrá ver un ejemplo de cómo una empresa de gran impacto en el mercado a nivel mundial pone en práctica, todos y cada uno de los elementos mencionados en este componente formativo para además de hacer una gran venta, seguir en contacto con sus clientes mediante elementos claves o principios de posventa. 
               a.anexo.mb-4.mb-lg-0(href="https://www.youtube.com/watch?v=yqyttSMc7ac" target="_blank")
                 .anexo__icono
