@@ -8,19 +8,19 @@
       h1 Posventa
     
     .row.mb-5.justify-content-center
-      .col-12.col-md-6.d-flex.align-items-center.bg_grad-09.mb-3.mb-md-0(data-aos="fade-right")
+      .col-12.col-md-12.col-lg-6.order-2.order-lg-1.d-flex.align-items-center.bg_grad-09.mb-3(data-aos="fade-right")
         p Cuando se habla del tema de las ventas y  fidelización de los clientes, no solo es el proceso que se genera por el intercambio de dinero por un bien y/o servicio ni solo hacerle una llamada telefónica…, esto necesariamente va más allá, va desde antes cuando se genera la venta, conociendo el comportamiento del consumidor, las tendencias, el tipo de cliente, hasta el punto en conocer cuál fue la utilidad final, si ha satisfecho plenamente las necesidades de su cliente final, evaluar el desempeño y nivel de satisfacción para dar la sensación de seguridad, garantía y confiabilidad con la empresa. 
-      .col-12.col-md-4(data-aos="fade-left")
+      .col-12.col-md-8.col-lg-4.order-1.order-lg-2.mb-3(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema6/t6-1.png', alt='Texto que describa la imagen')
     
     p.mb-5 Cuando una empresa desea ir más allá, permanecer en el mercado, estar entre los referentes de calidad y confiabilidad en cuanto a los bienes y/o servicios ofertados, debe estar plenamente segura de que es una inversión estudiar su cliente y aún con mayor razón si se habla de empresas de comercio mayorista, dado que está en su generalidad, sus clientes pertenecen a empresas detallistas, intermediarios entre el bien y su cliente final.
 
     .row.mb-5.justify-content-center
-      .col-12.col-md-2.mb-3.mb-md-0(data-aos="fade-right")
+      .col-12.col-md-6.col-lg-2.mb-3.mb-3(data-aos="fade-right")
         figure.d-flex.justify-content-center
           img.img180(src='@/assets/curso/tema6/t6-2.svg', alt='Texto que describa la imagen')
-      .col-12.col-md-8.d-flex.align-items-center(data-aos="fade-left")
+      .col-12.col-md-12.col-md-8.d-flex.align-items-center(data-aos="fade-left")
         p Por otro lado, no solo se habla de las necesidades del cliente final, sino también de los intermediarios y las garantías van más allá de un producto o servicio defectuoso o de baja calidad, por lo que se hace necesario entender dos mundos distintos, uno camino a la comercialización y otro con destino al usuario final, por lo que estas empresas de comercialización de productos mayoristas deben absorber la información del medio y tendencias, a la hora de utilizar el producto para su propósito final, si este fue eficiente, si resolvió la necesidad adecuadamente, si es de alta calidad y resistente al entorno en el cual estará sometido, todos estos factores solo se resolverán a través del servicio posventa.
     
     .row.justify-content-center(data-aos="flip-up")
@@ -59,11 +59,11 @@
     p.mb-5 Estos dos enfoques se logran con una muy buena comunicación prolongándola a través del tiempo con ciertas técnicas y estrategias que permitirán el éxito de la empresa.
 
     .row.mb-5.justify-content-center
-      .col-12.col-md-6.bg_grad-10.mb-3.mb-md-0.d-flex.align-items-center(data-aos="fade-right")
+      .col-12.col-md-12.col-lg-6.order-2.order-lg-1bg_grad-10.mb-3.mb-md-0.d-flex.align-items-center(data-aos="fade-right")
         div
           p El valor de la posventa, 	en ocasiones, es desestimado por empresas detallistas que utilizan el valor de las marcas que ofrecen como respaldo y garantías de que son empresas con credibilidad. Por otro lado, la posventa es de vital importancia y juega uno de los papeles más importantes de las empresas mayoristas, pues aquí es donde se marca una ruta, se forma y toma un norte comercial, además de conocer perfectamente su sector, si necesita realizar ajustes, modificaciones y correcciones de calidad, todo con el fin de general fidelización y estabilidad en el mercado.
           p.mb-5 Actualmente, aunque el servicio posventa es de vital importancia, dando como prioridad la obtención de clientes leales a la marca, las empresas están invirtiendo sus esfuerzos en la consecución de nuevos clientes, y tanto la fidelización como la consecución de las estas nuevas entradas, deben ser realizadas a la par, con la misma fuerza e intensidad para no descuidar el rumbo de la empresa. 
-      .col-12.col-md-4(data-aos="fade-left")
+      .col-12.col-md-6.col-lg-4.order-1.order-lg-2.mb-3(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema6/t6-6.png', alt='Texto que describa la imagen')
     
