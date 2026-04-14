@@ -143,7 +143,7 @@
       background-color: #00E7BF
   &_9
     .tarjeta--azul.acordion__activo
-      background-color: #FFF9DE 
+      background-color: #FFF4BF 
     .tarjeta--azul
       background-color: #F3F3F3
   &_10
@@ -158,22 +158,23 @@
   &_13
     background-color: #F6F6F6
   &_15
-    background-color: #FFF4BF
+    background-color: #F6F6F6
     .slyder-a__btn--atrs
-      background-color: #4A2EFC
+      background-color: $color-acento-botones
       background-image: url("../assets/componentes/arrow1.svg") 
     .slyder-a__btn--sigt
-      background-color: #4A2EFC
+      background-color: $color-acento-botones
       background-image: url("../assets/componentes/arrow1.svg")
     .slyder-a__bullets__item--active
-      background-color: #4A2EFC !important
-      border-color: #4A2EFC 
+      background-color: $color-acento-botones !important
+      border-color: $color-acento-botones 
     .slyder-a__bullets__item
       background-color: #C0B6FE
+    
   &_16
-    background-color: #BDB6EA
+    background-color: #F4B40040
   &_17
-    background-color: #D1CAFE
+    background-color: #F4B40040
   &_18
     background-color: #BEFFF4
     &::before
@@ -185,49 +186,53 @@
     background-color: #F27B58
     border-radius: 10px
   &_21
-    background-color: #EAE6FF
+    background-color:#FFF6DE
     &::before
-      background-color: #4A2EFC
+      background-color: #F4B400
   &_22
     background-color: #FFF4BF
     height: 112px
-    @media screen and (max-width: 992px)
+    @media screen and (max-width: 1024px)
       height: 134px
+    @media screen and (max-width: 992px)
+      height: 110px
     @media screen and (max-width: 420px)
       height: auto
   &_23
     background-color: #E8E8E8
   &_24
-    background-color: #ACFFF0
+    background-color: #F6F6F6
     .slyder-a__btn--atrs
-      background-color: #009077
+      background-color: #F4B400
       background-image: url("../assets/componentes/arrow1.svg") 
     .slyder-a__btn--sigt
-      background-color: #009077
+      background-color:#F4B400
       background-image: url("../assets/componentes/arrow1.svg")
     .slyder-a__bullets__item--active
-      background-color: #009077 !important
-      border-color: #009077 
+      background-color: #F4B400 !important
+      border-color: #F4B400 
     .slyder-a__bullets__item
-      background-color: #00E0B9
+      background-color:  #C0B6FE
   &_25
-    background-color: #FFE14C
+    background-color: #9CA3AF
     border-radius: 10px
   &_26
     background-color: #F1FAFE
   &_27
     background-color: #FCDED5
     height: 168px
-    @media screen and (max-width: 992px)
+    @media screen and (max-width: 1024px)
       height: 214px
-    @media screen and (max-width: 420px)
+    @media screen and (max-width: 992px)
+      height: 357px
+    @media screen and (max-width: 425px)
       height: auto
   &_28
     background-color: #FFF4BF
     &::before
       background-color: #FFD400
   &_29
-    background-color: #A496FD
+    background-color: #F4B400
   &_30
     background-color: #BEFFF4
     border-radius: 10px
@@ -547,10 +552,13 @@
   position: absolute
   top: -18px
   right: -53px
-  width: 87px
-  @media screen and (max-width: 992px)
+  width: 80px
+  @media screen and (max-width: 1024px)
     top: -5px
-  @media screen and (max-width: 420px)
+  @media screen and (max-width: 992px)
+    top: -15px
+  @media screen and (max-width: 425px)
+    top: -3px
     right: -50px
   &_1
     position: absolute
@@ -594,13 +602,15 @@
   .tabs-a__tab
     background-color: #F6F6F6
     &:hover
-      color: white !important
+      color: #000000 !important
+      background-color: #F6F6F6
   .tabs-a__tab__selected
     color: #12263F !important
+    background-color: #9CA3AF !important
   &_1
     background-color: #FFFBEF
-    color: #12263F;
-    border: solid 4px #FFF4CC
+    color: #12263F
+    border: solid 4px #FFFBEF
 //CLASES SOBREESCRITAS//
 .horizontal-scroll
   align-items: stretch !important
@@ -608,11 +618,11 @@
 .linea-tiempo-d__item.row.linea-tiempo-d__item--selected
   .col-auto.linea-tiempo-d__item__col-number
     .linea-tiempo-d__item__number.tarjeta.tarjeta--gris
-      background-color: #D1CAFE !important
+      background-color: #F4B40040 !important
       color: $color-sistema-texto
   .col
     .linea-tiempo-d__item__content.tarjeta.tarjeta--gris
-      background-color: #D1CAFE
+      background-color: #FFF9D9
 
 /// non selected
 .linea-tiempo-d__item.row
@@ -627,3 +637,5 @@
 //LINEA DE TIEMPO B//
 .linea-tiempo-b__line:after
   border-left: 4px dotted #00E7BF
+.linea-tiempo-b__icon
+  background-color: #F6F6F6

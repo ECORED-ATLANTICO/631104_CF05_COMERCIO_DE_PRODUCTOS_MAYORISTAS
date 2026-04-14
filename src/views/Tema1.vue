@@ -59,7 +59,7 @@
                   | Oral vs. documental.
                 li.mb-2
                   i.fas.fa-paper-plane.colr_3
-                  | Textual vs. audiovisual/multimedia.
+                  | Textual vs. audiovisual / multimedia.
                 li.mb-2
                   i.fas.fa-paper-plane.colr_3
                   | Papel vs. electrónico.
@@ -79,10 +79,10 @@
                   | Formal vs. informal.
                 li.mb-2
                   i.fas.fa-paper-plane.colr_3
-                  | Publicado/abierto vs. no publicado.
+                  | Publicado / abierto vs. no publicado.
                 li.mb-2
                   i.fas.fa-paper-plane.colr_3
-                  | Confidencial/secreto.
+                  | Confidencial / secreto.
       .col-12.col-md-4.mb-3.mb-md-0(data-aos="flip-up")
         .row  
           .col-12

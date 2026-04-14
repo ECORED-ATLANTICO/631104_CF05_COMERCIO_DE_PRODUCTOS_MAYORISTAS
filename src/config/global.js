@@ -35,32 +35,29 @@ export default {
       },
       {
         nombreRuta: 'tema1',
-        icono: 'far fa-file-alt',
+
         numero: '1',
         titulo: 'Fuentes de información',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema2',
-        icono: 'far fa-file-alt',
+
         numero: '2',
         titulo: 'Procesamiento de datos',
         desarrolloContenidos: true,
         subMenu: [
           {
-            icono: 'far fa-file-alt',
             numero: '2.1',
             titulo: 'Características, tipos y técnicas',
             hash: 't_2_1',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '2.2',
             titulo: 'Instrumentos de recolección de datos',
             hash: 't_2_2',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '2.3',
             titulo: 'Parámetros de calidad',
             hash: 't_2_3',
@@ -69,19 +66,17 @@ export default {
       },
       {
         nombreRuta: 'tema3',
-        icono: 'far fa-file-alt',
+
         numero: '3',
         titulo: 'Normativa y confidencialidad de la información',
         desarrolloContenidos: true,
         subMenu: [
           {
-            icono: 'far fa-file-alt',
             numero: '3.1',
             titulo: 'Base de datos',
             hash: 't_3_1',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '3.2',
             titulo: 'Manejo de datos personales',
             hash: 't_3_2',
@@ -90,19 +85,17 @@ export default {
       },
       {
         nombreRuta: 'tema4',
-        icono: 'far fa-file-alt',
+
         numero: '4',
         titulo: 'Mediciones',
         desarrolloContenidos: true,
         subMenu: [
           {
-            icono: 'far fa-file-alt',
             numero: '4.1',
             titulo: 'Tipos de mediciones',
             hash: 't_4_1',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '4.2',
             titulo: 'Herramientas',
             hash: 't_4_2',
@@ -111,38 +104,34 @@ export default {
       },
       {
         nombreRuta: 'tema5',
-        icono: 'far fa-file-alt',
+
         numero: '5',
         titulo: 'Solicitudes',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema6',
-        icono: 'far fa-file-alt',
+
         numero: '6',
         titulo: 'Posventa',
         desarrolloContenidos: true,
         subMenu: [
           {
-            icono: 'far fa-file-alt',
             numero: '6.1',
             titulo: 'Etapas',
             hash: 't_6_1',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '6.2',
             titulo: 'Técnicas',
             hash: 't_6_2',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '6.3',
             titulo: 'Proceso y procedimiento',
             hash: 't_6_3',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '6.4',
             titulo: 'Garantía y normatividad',
             hash: 't_6_4',
@@ -151,19 +140,17 @@ export default {
       },
       {
         nombreRuta: 'tema7',
-        icono: 'far fa-file-alt',
+
         numero: '7',
         titulo: 'Técnicas y resolución de conflictos comerciales',
         desarrolloContenidos: true,
         subMenu: [
           {
-            icono: 'far fa-file-alt',
             numero: '7.1',
             titulo: 'Niveles de cumplimiento',
             hash: 't_7_1',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '7.2',
             titulo: 'Mediciones y tratamiento',
             hash: 't_7_2',

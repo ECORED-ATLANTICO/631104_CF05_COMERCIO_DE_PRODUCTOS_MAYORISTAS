@@ -16,12 +16,13 @@
     
     .row.mb-5.justify-content-center
       .col-12.col-md-10 
-        .titulo-sexto.color-acento-botones.mb-5
+        .titulo-sexto.color-acento-contenido.mb-5
           h5 Figura 1
           span Procesamiento de datos
         figure
-          img(src='@/assets/curso/tema2/t2-2.svg', alt='Texto que describa la imagen')
-    
+          img(src='@/assets/curso/tema2/t2-2.svg', class="img-fluid d-none d-lg-block", alt='Texto que describa la imagen')
+          img(src='@/assets/curso/tema2/t2-2-m.svg', class="img-fluid d-block d-lg-none", alt='Texto que describa la imagen')
+
     .row.mb-5.justify-content-center
       .col-12.col-md-7.bg_grad-03.mb-3.mb-md-0(data-aos="fade-up-right")
         p El procesamiento de datos es de gran importancia para que las organizaciones creen mejores estrategias de negocio y aumenten su ventaja competitiva. Al convertir los datos en un formato legible, como: gráficos, tablas y documentos, los empleados de toda la organización pueden entenderlos y utilizarlos para el beneficio de la empresa.
@@ -84,12 +85,12 @@
     .tarjeta.bgr_15.p-4.mb-5(data-aos="flip-up")
       SlyderA(tipo="b")
         .row
-          .col-md-4.p-4
+          .col-md-8.col-lg-4.p-4
             h4.mb-5 Procesamiento manual de datos 
             p En este método los datos se procesan manualmente. 
             p Todo el proceso de recopilación de datos, filtrado, clasificación, cálculo y otras operaciones lógicas se realiza con intervención humana, sin utilizar ningún otro dispositivo electrónico o software de automatización.
             p.mb-0 Es un método de bajo coste y no requiere apenas herramientas, pero produce grandes errores, altos costes de mano de obra y mucho tiempo.
-          .col-md-8.p-4
+          .col-md-4.col-lg-8.p-4
             figure
               img(src='@/assets/curso/tema2/t2-10.png', alt='Texto que describa la imagen')
         .row
@@ -113,9 +114,9 @@
     p.mb-5 El procesamiento de datos se produce en cada parte de la vida cotidiana, por lo que a continuación se relacionan algunos ejemplos de su uso en la vida real:
 
     figure.mb-5(data-aos="zoom-in-up")
-      .video
+      .video.mb-2
         iframe(width="560" height="315" src="https://www.youtube.com/embed/K3U38rfBGWw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-
+      figcaption Video: Ejemplo de procesamiento de datos
     separador
 
     #t_2_1.titulo-segundo.color-acento-botones(data-aos="fade-right")

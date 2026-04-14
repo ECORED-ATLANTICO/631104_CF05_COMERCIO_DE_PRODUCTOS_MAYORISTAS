@@ -13,9 +13,9 @@
     p.mb-5 Por lo anterior, el país ha querido fortalecer o posicionar los productos marca Colombia a nivel internacional, lo que ha requerido, que desde el Estado se dé un empuje al sector empresarial en términos de cualificar al recurso humano en el tema. Es así como en este componente formativo adquirirá las competencias necesarias para ser parte del cambio en el campo laboral al cual se enfrente. A continuación, se invita a ver el siguiente video que da inicio a este proceso de aprendizaje:
 
     figure.mb-5(data-aos="zoom-in-up")
-      .video
+      .video.mb-2
         iframe(width="560" height="315" src="https://www.youtube.com/embed/Rat5hN2rW_M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-
+      figcaption Video: Manejo de información y posventa
     
 </template>
 

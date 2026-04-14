@@ -77,28 +77,28 @@
     p.mb-5 Existen varios tipos de posventa que vale la pena mencionar, estos son:
 
     .tarjeta--container.row
-      .col-md-3.tarjeta.bgr_17.p-5
+      .col-md-6.col-lg-3.tarjeta.bgr_17.p-5.mb-3
         .row.justify-content-center.mb-4
           .col-6
             figure
               img.img80(src='@/assets/curso/tema6/t6-7.svg', alt='Texto que describa la imagen')
         h2.text-center Promocionales 
         p Se enfocan en la promoción de las ventas de los productos o servicios de las empresas.
-      .col-md-3.tarjeta.bgr_29.p-5
+      .col-md-6.col-lg-3.tarjeta.bgr_29.p-5.mb-3
         .row.justify-content-center.mb-4
           .col-6
             figure
               img.img80(src='@/assets/curso/tema6/t6-8.svg', alt='Texto que describa la imagen')
         h2.text-center Psicológicos  
         p Enfocados en la parte motivacional del cliente y en esa sensación que las empresas deben transmitir de que el cliente les importa.
-      .col-md-3.tarjeta.bgr_17.p-5
+      .col-md-6.col-lg-3.tarjeta.bgr_17.p-5.mb-3
         .row.justify-content-center.mb-4
           .col-6
             figure
               img.img80(src='@/assets/curso/tema6/t6-9.svg', alt='Texto que describa la imagen')
         h2.text-center De seguridad
         p Permiten dar esa sensación de seguridad y garantía de que el producto y/o servicio es de alta calidad, que está destinado y creado perfectamente para soportar las condiciones de su uso final.
-      .col-md-3.tarjeta.bgr_29.p-5
+      .col-md-6.col-lg-3.tarjeta.bgr_29.p-5.mb-3
         .row.justify-content-center.mb-4
           .col-6
             figure
@@ -178,9 +178,9 @@
       .h2 6.3 Proceso y procedimiento
 
     .row.mb-5.justify-content-center
-      .col-12.col-md-6.bg_grad-08.mb-3.mb-md-0.d-flex.align-items-center(data-aos="fade-right")
+      .col-12.col-md-12.col-lg-6.order-2.order-lg-1.bg_grad-08.mb-3.mb-md-0.d-flex.align-items-center(data-aos="fade-right")
         p El proceso y procedimiento del servicio posventa  es la manera como se puede medir la empresa y los productos de acuerdo con el nivel de satisfacción de los clientes y los ingresos y/o pérdidas que generen los productos cuando se presentan eventualidades fuera de las esperadas, la misma tiene que ver con la forma sobre cómo se resuelve un problema con un producto que cuenta con una garantía de cambio, entendiéndose, desde la parte comercial, como “todo debe ser medido para su aprobación o rendimiento”. 
-      .col-12.col-md-4(data-aos="fade-left")
+      .col-12.col-md-6.col-lg-4.order-1.order-lg-2.mb-3(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema6/t6-21.png', alt='Texto que describa la imagen')
     
