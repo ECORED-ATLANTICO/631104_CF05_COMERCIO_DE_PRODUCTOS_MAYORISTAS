@@ -110,13 +110,13 @@
     figure.mb-5(data-aos="zoom-in-up")
       .video.mb-2
         iframe(width="560" height="315" src="https://www.youtube.com/embed/-Et6zWzTtzY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption Video: Estudios de recomendación de clientes
+      figcaption(style="font-weight: normal;") Video: Estudios de recomendación de clientes
     p.mb-5 Ahora bien, en la siguiente video clase podrá reforzar su aprendizaje con los conceptos sobre las mediciones que se pueden hacer en el proceso comercial: 
 
     figure.mb-5(data-aos="zoom-in-up")
       .video.mb-2
         iframe(width="560" height="315" src="https://www.youtube.com/embed/g_pyR7_Pxsk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption Video: Herramientas para medir la experiencia de los clientes
+      figcaption(style="font-weight: normal;") Video: Herramientas para medir la experiencia de los clientes
 </template>
 
 <script>

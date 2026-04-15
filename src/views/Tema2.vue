@@ -116,7 +116,7 @@
     figure.mb-5(data-aos="zoom-in-up")
       .video.mb-2
         iframe(width="560" height="315" src="https://www.youtube.com/embed/K3U38rfBGWw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption Video: Ejemplo de procesamiento de datos
+      figcaption(style="font-weight: normal;") Video: Ejemplo de procesamiento de datos
     separador
 
     #t_2_1.titulo-segundo.color-acento-botones(data-aos="fade-right")
