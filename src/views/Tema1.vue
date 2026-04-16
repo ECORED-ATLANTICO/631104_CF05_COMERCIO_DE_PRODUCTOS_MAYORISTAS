@@ -87,7 +87,7 @@
         .row  
           .col-12
             .bgr_5.pt-5.pb-3.position-relative
-              p.mb-0.text-bold.text-center Ubicación
+              p.mb-0.text-bold.text-center(style="color: #FFFFFF;") Ubicación
               img.pst_1(src='@/assets/curso/tema1/t1-4.svg' alt='AvatarTop')
             .bgr_6.p-5
               ul.lista-ul--color

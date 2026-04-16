@@ -97,7 +97,7 @@
     
     .row.justify-content-center
       .col-12.col-md-10(data-aos="flip-up")
-        .cajon.bgr_21.p-5
+        .cajon.bgr_21_1.p-5
           p.mb-0 La recomendación es una variable de alto interés dentro de la experiencia al cliente y en general dentro del mercadeo y las ventas, dado que cuando un cliente lo hace, significa que no solo está satisfecho con ella, sino que, además, es un cliente prescriptor; es decir, aquel  que genera una voz a voz positivo para la marca. 
     
     separador

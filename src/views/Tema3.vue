@@ -133,18 +133,18 @@
 
     ul.lista-ul--color.mb-3
       li.mb-2
-        i.fas.fa-paper-plane
+        i.fas.fa-paper-plane(style="color: #F4B400;")
         | El incremento de ingresos. 
       li.mb-2
-        i.fas.fa-paper-plane
+        i.fas.fa-paper-plane(style="color: #F4B400;")
         | Mejoras en los procesos.
       li.mb-2
-        i.fas.fa-paper-plane
+        i.fas.fa-paper-plane(style="color: #F4B400;")
         | Maximización en las campañas publicitarias.
       li.mb-2
-        i.fas.fa-paper-plane
+        i.fas.fa-paper-plane(style="color: #F4B400;")
         | Acceso permanente a la analítica de datos para dar impulso al rendimiento o beneficio empresarial. 
-
+    br
     p.mb-5 Las metodologías o técnicas aplicadas para una base de datos demandan realizar:
 
     .row.mb-5.justify-content-center
@@ -162,12 +162,12 @@
           div.p-4
             h2.text-center 02
             p.mb-0 Un análisis confirmatorio de datos que permite la aplicación de técnicas estadísticas para establecer si las hipótesis lanzadas son verdaderas o falsas.
-
+    br
     .row.mb-5.justify-content-center
-      .col-12.col-md-6.col-lg-4.order-1.order-lg-2.mb-3(data-aos="fade-right")
+      .col-12.col-md-6.col-lg-4.mb-3(data-aos="fade-right")
         figure
           img(src='@/assets/curso/tema3/t3-12.png', alt='Texto que describa la imagen')
-      .col-12.col-md-12.col-lg-8.order-2.order-lg-1(data-aos="fade-left")
+      .col-12.col-md-12.col-lg-8(data-aos="fade-left")
         p El análisis de datos o <em>Big Data</em> es muy aplicado debido a los análisis cualitativos, ya que se realiza el análisis de datos numéricos, los cuales tienen variables que pueden ser cuantificables, pueden compararse y medirse a través de la estadística, es de anotar que el análisis cualitativo es de carácter interpretativo, es decir que se hace a través de interpretaciones de los resultados estadísticos, basados en la comprensión que se haga de los datos que no son numéricos. 
         p.mb-0 En el análisis de <em>Big Data</em>, se nos presentan los datos. No se puede diseñar un experimento que cumpla con un modelo estadístico favorito. En las aplicaciones de analítica a gran escala, se necesita una gran cantidad de trabajo, normalmente el 80% del esfuerzo solo para limpiar los datos, de modo que puedan ser utilizados por un modelo de aprendizaje automático.
 
