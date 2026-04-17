@@ -24,7 +24,7 @@
         p Por otro lado, no solo se habla de las necesidades del cliente final, sino también de los intermediarios y las garantías van más allá de un producto o servicio defectuoso o de baja calidad, por lo que se hace necesario entender dos mundos distintos, uno camino a la comercialización y otro con destino al usuario final, por lo que estas empresas de comercialización de productos mayoristas deben absorber la información del medio y tendencias, a la hora de utilizar el producto para su propósito final, si este fue eficiente, si resolvió la necesidad adecuadamente, si es de alta calidad y resistente al entorno en el cual estará sometido, todos estos factores solo se resolverán a través del servicio posventa.
     
     .row.justify-content-center(data-aos="flip-up")
-      .col-12.col-md-10
+      .col-12.col-md-12-col-lg-10
         .row.mb-5.bgr_25.p-3
           .col-12.col-md-2.mb-3.mb-md-0
             figure.d-flex.justify-content-center
@@ -130,7 +130,7 @@
         .row.p-4  
           .col-12.col-lg-6
             h4 Creación de un canal específico para el servicio posventa
-            p Es aquí donde se crea un correo único para posventa, un número de teléfono para atención al cliente, una página web, un chat enfocado única y exclusivamente para el servicio posventa. 
+            p.mb-3 Es aquí donde se crea un correo único para posventa, un número de teléfono para atención al cliente, una página web, un chat enfocado única y exclusivamente para el servicio posventa. 
           .col-12.col-lg-6
             figure
               img(src='@/assets/curso/tema6/t6-16.png', alt='Texto que describa la imagen')
@@ -139,7 +139,7 @@
           .col-12.col-lg-6
             h4 Mantener contacto con los clientes
             p Es de vital importancia que la comunicación empresa-cliente no se corte, por ello es necesario sostener una conversación con los clientes activa, por medio de estrategias como <em>e-mail marketing</em> y CRM. 
-            p.mb-0 En esta técnica vale la pena resaltar que estos espacios de comunicación deben de ser aprovechados, ya sea con encuestas de satisfacción o desempeño, tips de uso, cuidado, noticias de nuevos lanzamientos, o sencillamente de agradecimiento por su lealtad con la marca o compra de productos. Como factor clave, la constancia en esta relación.
+            p.mb-3 En esta técnica vale la pena resaltar que estos espacios de comunicación deben de ser aprovechados, ya sea con encuestas de satisfacción o desempeño, tips de uso, cuidado, noticias de nuevos lanzamientos, o sencillamente de agradecimiento por su lealtad con la marca o compra de productos. Como factor clave, la constancia en esta relación.
           .col-12.col-lg-6
             figure
               img(src='@/assets/curso/tema6/t6-17.png', alt='Texto que describa la imagen')
@@ -147,7 +147,7 @@
         .row.p-4  
           .col-12.col-lg-6
             h4 Generar incentivos
-            p Eventos exclusivos, descuentos, zona vip, entre otras estrategias son parte vital en el servicio posventa, esta técnica permite generar interés en la marca y hacer parte de su comunidad, aumentando la demanda de sus productos y/o servicios ofrecidos, además de brindar una imagen de estatus e importancia hacia el cliente.
+            p.mb-3 Eventos exclusivos, descuentos, zona vip, entre otras estrategias son parte vital en el servicio posventa, esta técnica permite generar interés en la marca y hacer parte de su comunidad, aumentando la demanda de sus productos y/o servicios ofrecidos, además de brindar una imagen de estatus e importancia hacia el cliente.
           .col-12.col-lg-6
             figure
               img(src='@/assets/curso/tema6/t6-18.png', alt='Texto que describa la imagen')
@@ -156,7 +156,7 @@
           .col-12.col-lg-6
             h4 Generar un servicio de soporte especializado
             p Es aquí donde se va a encontrar toda la información personalizada del uso de los productos, además de sus manuales y correcto funcionamiento. 
-            p.mb-0 De igual manera, se podrá encontrar asesoramiento remoto o en casa, visitas programadas, resolver problemas en cuanto a productos defectuosos, etc. tareas que la posventa debe realizar y con esta técnica teniendo un centro de soporte especializado logrará responder a la necesidad del cliente inmediatamente.
+            p.mb-3 De igual manera, se podrá encontrar asesoramiento remoto o en casa, visitas programadas, resolver problemas en cuanto a productos defectuosos, etc. tareas que la posventa debe realizar y con esta técnica teniendo un centro de soporte especializado logrará responder a la necesidad del cliente inmediatamente.
           .col-12.col-lg-6
             figure
               img(src='@/assets/curso/tema6/t6-19.png', alt='Texto que describa la imagen') 
@@ -165,7 +165,7 @@
           .col-12.col-lg-6
             h4 Ofrecer garantías y seguridad después de la compra
             p Cuando se habla de la comercialización de productos y servicios, se está mencionando intrínsecamente la confianza que tienen los clientes tanto del producto como de la marca, ofrecer seguridad y tranquilidad al cliente es de vital importancia en el proceso de negociación y cierre de la venta.
-            p.mb-5 Es allí donde juega un papel importante el establecer normas y políticas de uso, de cambio, las devoluciones y garantías en caso de no cumplir con las expectativas presentes en los clientes. 
+            p.mb-3 Es allí donde juega un papel importante el establecer normas y políticas de uso, de cambio, las devoluciones y garantías en caso de no cumplir con las expectativas presentes en los clientes. 
           .col-12.col-lg-6
             figure
               img(src='@/assets/curso/tema6/t6-20.png', alt='Texto que describa la imagen')
@@ -188,45 +188,45 @@
     
     PasosA.color-acento-botones.mb-5.colr_5(tipo="l")
       .row
-        .col-md-8.d-flex.align-items-center(data-aos="fade-right")
+        .col-md-12.col-lg-8.order-2.order-lg-1.d-flex.align-items-center(data-aos="fade-right")
           div
             h3 <em>Lifetime Value</em> 
             p El <em>Lifetime Value</em> (LTV) indica la rentabilidad que genera un cliente en la empresa a través del tiempo en que esta relación permanezca, es por ello que se observa que las empresas utilizan estrategias como: acumulación de puntos, vistos en almacenes, como Éxito o Jumbo, para medir quiénes son los clientes frecuentes y premiarlos por ello.
             p.mb-0 De esa forma, se logra predecir las ganancias obtenidas con esa relación a lo largo del tiempo. Un alto valor de LTV indicará la empresa el alto nivel de fidelización con la marca y los productos o servicios con los clientes.
-        .col-md-4.mb-4.mb-md-0(data-aos="fade-left")
+        .col-md-6.col-lg-4.mb-4.order-1.order-lg-2(data-aos="fade-left")
           figure
             img(src='@/assets/curso/tema6/t6-22.png', alt='Texto que describa la imagen')
       .row
-        .col-md-4.mb-4.mb-md-0(data-aos="fade-right")
+        .col-md-6.col-lg-4.mb-4.order-1.order-lg-2(data-aos="fade-right")
           figure
             img(src='@/assets/curso/tema6/t6-23.png', alt='Texto que describa la imagen')
-        .col-md-8.d-flex.align-items-center(data-aos="fade-left")
+        .col-md-12.col-lg-8.order-2.order-lg-1.d-flex.align-items-center(data-aos="fade-left")
           div
             h3 <em>Customer Profitability Score</em>
             p Esta métrica permite analizar y ver cuánto gasta la empresa en sus clientes frecuentes versus las ganancias recibidas por ellos a través del tiempo, también se puede conocer la rentabilidad que  genera un cliente en un tiempo determinado. 
             p.mb-0 Por lo que se contrastan las ganancias que genera ese cliente con los gastos que asumes para retenerlo. Esto es necesario conocerlo para saber con cuáles clientes se debe invertir más dinero  y en cuáles menos.
       .row
-        .col-md-8.d-flex.align-items-center(data-aos="fade-right")
+        .col-md-12.col-lg-8.order-2.order-lg-1.d-flex.align-items-center(data-aos="fade-right")
             div
               h3 <em>Net Promoter Score (NPS)</em> 
               p.mb-0 Este refleja el nivel de satisfacción de los clientes frente a los productos o servicios ofertados, son esas encuestas elaboradas de 1 a 10, para entender los patrones de consumo de los clientes activos.
-        .col-md-4.mb-4.mb-md-0(data-aos="fade-left")
+        .col-md-6.col-lg-4.mb-4.order-1.order-lg-2(data-aos="fade-left")
           figure
             img(src='@/assets/curso/tema6/t6-24.png', alt='Texto que describa la imagen')
       .row
-        .col-md-4.mb-4.mb-md-0(data-aos="fade-right")
+        .col-md-6.col-lg-4.mb-4.order-1.order-lg-2(data-aos="fade-right")
           figure
             img(src='@/assets/curso/tema6/t6-25.png', alt='Texto que describa la imagen')
-        .col-md-8.d-flex.align-items-center(data-aos="fade-left")
+        .col-md-12.col-lg-8.order-2.order-lg-1.d-flex.align-items-center(data-aos="fade-left")
           div
             h3 Tasa de abandono 
             p.mb-0 Mide cuántos clientes están dejando de comprar los productos y/o servicios, ya sea en un lugar físico o en internet y cuántos dejan sus carritos de compra sin cerrar la venta.
       .row
-        .col-md-8.d-flex.align-items-center(data-aos="fade-right")
+        .col-md-12.col-lg-8.order-2.order-lg-1.d-flex.align-items-center(data-aos="fade-right")
             div
               h3 Conclusión
               p.mb-0 Con esta información se pueden realizar ciertos ajustes en las estrategias, además de corregir el curso de la empresa en pro de la cercanía con el cliente final.
-        .col-md-4.mb-4.mb-md-0(data-aos="fade-left")
+        .col-md-6.col-lg-4.mb-4.order-1.order-lg-2(data-aos="fade-left")
           figure
             img(src='@/assets/curso/tema6/t6-26.png', alt='Texto que describa la imagen')
 
@@ -247,7 +247,7 @@
     p.mb-5 Por lo anterior, las empresas tienen que mirar sus alcances y cuánto dinero desean invertir en el aspecto de las garantías, dado que es aquí donde el servicio posventa tiene como factor principal satisfacer plenamente a su cliente sin dejar a un lado los intereses de pérdidas y ganancias que están dispuestos a asumir en esta área.
 
     .row.mb-5.justify-content-center
-      .col-12.col-md-10
+      .col-12.col-md-12.col-lg-10
         .bloque-texto-g.bgr_4.p-3.p-sm-4.p-md-5
           .bloque-texto-g__img(
             :style="{'background-image': `url(${require('@/assets/curso/tema6/t6-28.png')})`}"
@@ -259,7 +259,7 @@
     p.mb-5 En la construcción de estas garantías se requiere un análisis financiero, de viabilidad y el análisis de las políticas a las cuales la empresa está obligada a cumplir de acuerdo con las leyes de protección al consumidor, entre otros factores internos como: los materiales de construcción para determinar el alcance y la resistencia de sus productos. Es por ello que se ven en internet las pruebas de resistencia, como por ejemplo: las marcas de vehículos que deben pasar sus automóviles por estrictas pruebas de choque, seguridad y confiabilidad en cuanto a carrocería, frenos y asistencias tecnológicas en sus componentes como en los frenos y bolsas de aire.
 
     .row.mb-5.justify-content-center
-      .col-12.col-md-10
+      .col-12.col-md-12.col-lg-10(data-aos="flip-up")
         .cajon.bgr_7.px-5.py-4
           p.mb-0 Es necesario entender que sin las garantías los clientes no confían en las marcas y sin normas diseñadas adecuadamente, limitarían su alcance y podrían generar pérdidas sustanciales para las empresas.
 

@@ -61,7 +61,7 @@
                 i.fas.fa-file-download
     
     .row.mb-5.justify-content-center
-      .col-12.col-md-10
+      .col-12.col-md-12.col-lg-10
         .bloque-texto-g.bgr_17_1.p-3.p-sm-4.p-md-5
           .bloque-texto-g__img(
             :style="{'background-image': `url(${require('@/assets/curso/tema7/t7-28.png')})`}"
@@ -91,7 +91,7 @@
         div
           p También involucra la solución adecuada de los reclamos e inquietudes sobre los servicios de mantenimiento y cumplimiento de garantías, por lo que al cliente se le debe otorgar nuevas facilidades para la satisfacción de la compra, teniendo esto en mente, los agentes de servicio al cliente deben resolver las situaciones con calidez y aplicar encuestas de satisfacción para asegurar que las garantías dadas al cliente sí se cumplieron.
           p.mb-0 En ocasiones el cumplimiento de las garantías marca la diferencia entre una y otra empresa, porque sí cumplen con lo ofrecido en la compra de productos o servicios, para dar más claridad se hace necesario reflexionar sobre una frase muy común "el producto convence, pero el servicio enamora", esto significa que el cliente necesita del cumplimiento de las garantías para generar una relación de fidelidad y lealtad con la empresa, él espera algo más que la mercancía comprada.
-      .col-12.col-md-6.col-lg-3.order-1.order-lg-2.mb-3(data-aos="fade-left")
+      .col-12.col-md-6.col-lg-3.order-1.order-lg-2.mb-4(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema7/t7-8.png', alt='Texto que describa la imagen')
  
@@ -105,17 +105,17 @@
         figure.mb-3
           img(src='@/assets/curso/tema7/t7-9.png', alt='Texto que describa la imagen')
         h4 Nivel 1. Criminal
-        p.mb-0 Este nivel se refiere a la pérdida de credibilidad por parte del cliente, ya que no se cumple con la promesa de servicio ni con las garantías.
+        p.mb-3 Este nivel se refiere a la pérdida de credibilidad por parte del cliente, ya que no se cumple con la promesa de servicio ni con las garantías.
       .col-12.col-md-4(data-aos="flip-down")
         figure.mb-3
           img(src='@/assets/curso/tema7/t7-10.png', alt='Texto que describa la imagen')
         h4 Nivel 2. Básico 
-        p.mb-0 En este nivel la empresa ofrece básicamente lo necesario, lo que ocasiona que el cliente desconfíe a la hora de comprar.
+        p.mb-3 En este nivel la empresa ofrece básicamente lo necesario, lo que ocasiona que el cliente desconfíe a la hora de comprar.
       .col-12.col-md-4(data-aos="flip-up")
         figure.mb-3
           img(src='@/assets/curso/tema7/t7-11.png', alt='Texto que describa la imagen')
         h4 Nivel 3. Esperado
-        p.mb-0 En este nivel se presta un servicio que no tiene nada de especial, no ofrece garantías para la posventa. 
+        p.mb-3 En este nivel se presta un servicio que no tiene nada de especial, no ofrece garantías para la posventa. 
     
     p.mb-5 Ahora, se hace necesario revisar los niveles de cumplimientos en el caso del cliente, por lo que en a continuación se podrán revisar los requerimientos:
 

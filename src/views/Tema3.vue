@@ -91,10 +91,10 @@
             .tarjeta-slide__img.d-none.d-md-flex(:style="{'background-image': `url(${require('@/assets/curso/tema3/t3-6.png')})`}")
             .tarjeta-slide__img.d-flex.d-md-none(:style="{'background-image': `url(${require('@/assets/curso/tema3/t3-6-1.png')})`}")
 
-    .row.mb-5.justify-content-center
-      .col-12.col-md-10(data-aos="flip-up")
+    .row.mb-5.justify-content-center.align-items-center
+      .col-12.col-md-12.col-lg-10(data-aos="flip-up")
         .cajon.bgr_18.p-5
-          .row  
+          .row.justify-content-center
             .col-12.col-md-8.col-lg-4.mb-3.order-1.order-lg-2.mb-3
               figure
                 img(src='@/assets/curso/tema3/t3-7.svg', alt='Texto que describa la imagen')
@@ -219,13 +219,13 @@
     p.mb-5 Por otro lado, ninguna entidad puede hacer uso de esta información sin el permiso y autorización del dueño. La empresa o persona que sin la debida autorización realice uso de datos individuales recibirá una sanción y multa. Es por ello, que continuamente piden una aceptación una vez que se firma un contrato o se hace una compra.
 
     .row.justify-content-center
-      .col-12.col-md-5(data-aos="flip-up")
+      .col-12.col-md-12.col-lg-5(data-aos="flip-up")
         a.anexo.mb-4.mb-lg-0(href="https://www.sic.gov.co/sites/default/files/files/2021/Guia%20CUIDA%20TU%20IDENTIDAD%20DIGITAL%20002.pdf" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-link.svg")
           .anexo__texto
             p <b>Enlace web.</b> Superintendencia de Industria y Comercio. (2021) Cuida tu identidad personal.
-      .col-12.col-md-5(data-aos="flip-up")
+      .col-12.col-md-12.col-lg-5(data-aos="flip-up")
         a.anexo.mb-4.mb-lg-0(href="https://www.youtube.com/embed/bvAH9ppBbbE?feature=oembed" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-link.svg")

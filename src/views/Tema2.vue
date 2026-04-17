@@ -37,46 +37,46 @@
       .col-12.col-md-12.col-lg-10
         PasosA.color-acento-botones.mb-5.colr_5(tipo="n")
           .row
-            .col-md-2.mb-4.mb-md-0(data-aos="fade-right")
+            .col-md-3.col-lg-2.mb-3(data-aos="fade-right")
               figure
                 img.img80(src='@/assets/curso/tema2/t2-4.svg', alt='Texto que describa la imagen')
-            .col-md-10(data-aos="fade-left")
+            .col-md-9.col-lg-10(data-aos="fade-left")
               h3 Recogida
               p La recogida de datos brutos es el primer paso del ciclo de procesamiento. El tipo de datos brutos recogidos tiene un gran impacto en el resultado obtenido. Por lo tanto, estos deben recogerse de fuentes definidas y precisas para que los resultados posteriores sean válidos y utilizables. 
               p.mb-0 Los datos brutos pueden incluir cifras monetarias, cookies de sitios web, estados de pérdidas y ganancias de una empresa, comportamiento de los usuarios, etc.
           .row
-            .col-md-10.order-2.order-md-1(data-aos="fade-right")
+            .col-md-9.col-lg-10.order-2.order-md-1(data-aos="fade-right")
               h3 Preparación
               p.mb-0 La preparación o limpieza de los datos es el proceso de clasificación y filtrado que se les hace para eliminar los datos innecesarios e inexactos. Los datos brutos se comprueban para detectar errores, duplicaciones, cálculos erróneos o datos que faltan, y se transforman en una forma adecuada para su posterior análisis y procesamiento. Esto se hace para garantizar que solo se introducen en la unidad de procesamiento los datos de mayor calidad.
-            .col-md-2.mb-4.mb-md-0.order-1.order-md-2(data-aos="fade-left")
+            .col-md-3.col-lg-2.mb-4.mb-md-0.order-1.order-md-2(data-aos="fade-left")
               figure
                 img.img80(src='@/assets/curso/tema2/t2-5.svg', alt='Texto que describa la imagen')
           .row
-            .col-md-2.mb-4.mb-md-0(data-aos="fade-right")
+            .col-md-3.col-lg-2.mb-3(data-aos="fade-right")
               figure
                 img.img80(src='@/assets/curso/tema2/t2-6.svg', alt='Texto que describa la imagen')
-            .col-md-10(data-aos="fade-left")
+            .col-md-9.col-lg-10(data-aos="fade-left")
               h3 Entrada
               p.mb-0 En este paso los datos brutos se convierten en un formato legible por la máquina y se introducen en la unidad de procesamiento. Puede ser en forma de entrada de datos a través de un teclado, un escáner o cualquier otra fuente de entrada. 
           .row
-            .col-md-10.order-2.order-md-1(data-aos="fade-right")
+            .col-md-9.col-lg-10.order-2.order-md-1(data-aos="fade-right")
               h3 Procesamiento de datos
               p.mb-0 En este paso, los datos brutos se someten a varios métodos de procesamiento de datos utilizando algoritmos de aprendizaje automático e inteligencia artificial para generar un resultado deseable. Este paso puede variar ligeramente de un proceso a otro en función de la fuente de datos que se procese (lagos de datos, bases de datos en línea, dispositivos conectados, etc.) y del uso previsto del resultado.
-            .col-md-2.mb-4.mb-md-0.order-1.order-md-2(data-aos="fade-left")
+            .col-md-3.col-lg-2.mb-3.order-1.order-md-2(data-aos="fade-left")
               figure
                 img.img80(src='@/assets/curso/tema2/t2-7.svg', alt='Texto que describa la imagen')
           .row
-            .col-md-2.mb-4.mb-md-0(data-aos="fade-right")
+            .col-md-3.col-lg-2.mb-3(data-aos="fade-right")
               figure
                 img.img80(src='@/assets/curso/tema2/t2-8.svg', alt='Texto que describa la imagen')
-            .col-md-10(data-aos="fade-left")
+            .col-md-9.col-lg-10(data-aos="fade-left")
               h3 Salida
               p.mb-0 Finalmente los datos se transmiten y se muestran al usuario en una forma legible como gráficos, tablas, archivos vectoriales, audio, vídeo, documentos, etc. Esta salida puede ser almacenada y procesada en el siguiente ciclo de procesamiento de datos. 
           .row
-            .col-md-10.order-2.order-md-1(data-aos="fade-right")
+            .col-md-9.col-lg-10.order-2.order-md-1(data-aos="fade-right")
               h3 Almacenamiento
               p.mb-0 El último paso del ciclo de procesamiento de datos es el almacenamiento, en el que se guardan los datos y metadatos para su posterior uso. Esto permite un rápido acceso y recuperación de la información siempre que se necesite, y utilizarla como entrada en el siguiente ciclo de procesamiento de datos directamente.
-            .col-md-2.mb-4.mb-md-0.order-1.order-md-2(data-aos="fade-left")
+            .col-md-3.col-lg-2.mb-3.order-1.order-md-2(data-aos="fade-left")
               figure
                 img.img80(src='@/assets/curso/tema2/t2-9.svg', alt='Texto que describa la imagen')
     
@@ -90,7 +90,7 @@
             p En este método los datos se procesan manualmente. 
             p Todo el proceso de recopilación de datos, filtrado, clasificación, cálculo y otras operaciones lógicas se realiza con intervención humana, sin utilizar ningún otro dispositivo electrónico o software de automatización.
             p.mb-0 Es un método de bajo coste y no requiere apenas herramientas, pero produce grandes errores, altos costes de mano de obra y mucho tiempo.
-          .col-md-6.col-lg-8.p-4
+          .col-md-10.col-lg-8.p-4
             figure
               img(src='@/assets/curso/tema2/t2-10.png', alt='Texto que describa la imagen')
         .row.justify-content-center
@@ -99,7 +99,7 @@
             p Los datos se procesan mecánicamente mediante el uso de dispositivos y máquinas. 
             p Estos pueden incluir dispositivos simples como  calculadoras, máquinas de escribir, imprentas, etc. Con este método se pueden realizar operaciones sencillas de procesamiento de datos. 
             p.mb-0 Tiene muchos menos errores que el procesamiento manual de datos, pero el aumento de estos ha hecho que este método sea más complejo y difícil.
-          .col-md-6.col-lg-8.p-4
+          .col-md-10.col-lg-8.p-4
             figure
               img(src='@/assets/curso/tema2/t2-11.png', alt='Texto que describa la imagen')
         .row.justify-content-center
@@ -107,7 +107,7 @@
             h4.mb-5 Procesamiento electrónico de datos 
             p Los datos se procesan con tecnologías modernas utilizando <em>software</em> y programas de procesamiento de datos. Se da un conjunto de instrucciones al <em>software</em> para que  los procese  y produzca un resultado. 
             p.mb-0 Este método es el más caro, pero proporciona velocidades de procesamiento más rápidas con la mayor fiabilidad y precisión de los resultados.
-          .col-md-6.col-lg-8.p-4
+          .col-md-10.col-lg-8.p-4
             figure
               img(src='@/assets/curso/tema2/t2-12.png', alt='Texto que describa la imagen')
  
@@ -224,10 +224,10 @@
     TabsB.color-primario.mb-5
       .py-4.py-md-5(titulo="Entrevistas")
         .row.justify-content-center
-          .col-md-4.mb-4.mb-md-0
+          .col-md-6.col-lg-4.mb-3
             figure
               img(src='@/assets/curso/tema2/t2-23.png', alt='Texto que describa la imagen')
-          .col-md-6
+          .col-md-12.col-lg-6
             p.mb-0.text-bold Grabadora de audio
             p Una grabadora de audio se utiliza para registrar el sonido en un disco, una cinta o una película. La información de audio puede satisfacer las necesidades de una amplia gama de personas, así como proporcionar alternativas a las herramientas de recogida de datos impresas.
 
@@ -240,10 +240,10 @@
             p Si necesitas recopilar información sensible durante una entrevista, una videocámara podría no servirte, ya que tendrías que mantener la privacidad del sujeto.
       .py-4.py-md-5(titulo="La observación")
         .row.justify-content-center
-          .col-md-4.mb-4.mb-md-0
+          .col-md-6.col-lg-4.mb-3
             figure
               img(src='@/assets/curso/tema2/t2-24.png', alt='Texto que describa la imagen')
-          .col-md-6
+          .col-md-12.col-lg-6
             p Esta implica la adquisición activa de información de una fuente primaria y el registro de datos mediante el uso de instrumentos científicos. Las mejores herramientas para la observación son:
             p.mb-0.text-bold Listas de comprobación
             p Criterios específicos del estado, permiten a los usuarios recopilar información y emitir juicios sobre lo que deben saber en relación con los resultados. Ofrecen formas sistemáticas de recoger datos sobre comportamientos, conocimientos y habilidades específicos.
@@ -251,10 +251,10 @@
             p Es un método de estudio observacional para recoger información evaluativa. El evaluador observa al sujeto en su entorno habitual sin alterar dicho entorno.
       .py-4.py-md-5(titulo="Los cuestionarios")
         .row.justify-content-center
-          .col-md-4.mb-4.mb-md-0
+          .col-md-6.col-lg-4.mb-3
             figure
               img(src='@/assets/curso/tema2/t2-25.png', alt='Texto que describa la imagen')
-          .col-md-6
+          .col-md-12.col-lg-6
             p Hacen referencia al proceso de recogida de datos mediante un instrumento que consiste en una serie de preguntas e indicaciones para recibir una respuesta de los individuos a los que se administra. Los cuestionarios están diseñados para recoger datos de un grupo, ya sean en un sistema informático en línea o en papel.
             p.mb-0.text-bold Encuestas en línea
             p Existen diversas formas en la red que permiten  crear potentes formularios que le ayudarán a recoger la información que necesita. Podemos referenciar Google - documentos - formularios que ayuda a crear los formularios en línea que desee. La plantilla de formulario de cuestionario en línea de Formatos permite obtener tendencias procesables y respuestas medibles. 
@@ -262,10 +262,10 @@
             p Un cuestionario en papel es una herramienta de recopilación de datos que consiste en una serie de preguntas y/o avisos para recopilar información de los encuestados. Diseñados principalmente para el análisis estadístico de las respuestas, también pueden utilizarse como forma de recogida de datos.
       .py-4.py-md-5(titulo="Análisis documental")
         .row.justify-content-center
-          .col-md-4.mb-4.mb-md-0
+          .col-md-6.col-lg-4.mb-3
             figure
               img(src='@/assets/curso/tema2/t2-26.png', alt='Texto que describa la imagen')
-          .col-md-6
+          .col-md-12.col-lg-6
             p Las herramientas de elaboración de informes o análisis documental, permiten extraer y presentar los datos en gráficos, tablas y otras visualizaciones para que los usuarios puedan encontrar información útil. Los datos para la elaboración de informes pueden proceder de documentos de Organizaciones No Gubernamentales (ONG), periódicos, artículos de sitios web.
             p.mb-0.text-bold Informes de ONG
             p Los informes de las ONG contienen datos exhaustivos y completos sobre las actividades realizadas por la ONG, que abarca ámbitos como los negocios y los Derechos Humanos. 
@@ -283,19 +283,19 @@
     
     .tarjeta.bgr_15.p-4.mb-5(data-aos="flip-up")
       SlyderA(tipo="b")
-        .row
-          .col-md-8.p-4
+        .row.justify-content-center
+          .col-md-12.col-lg-8.p-4.mb-3
             h4.mb-5 Encuesta en línea 
             p Las dos herramientas combinadas aquí son las entrevistas en línea y el uso de cuestionarios. Se trata de un cuestionario que el público objetivo puede rellenar a través de internet. Es oportuno, eficaz y eficiente. Sobre todo, porque los datos que se recogen son de naturaleza cuantitativa.
-          .col-md-4.p-4
+          .col-md-6.col-lg-4.p-4
             figure
               img(src='@/assets/curso/tema2/t2-27.png', alt='Texto que describa la imagen')
-        .row
-          .col-md-8.p-4
+        .row.justify-content-center
+          .col-md-12.col-lg-8.p-4
             h4.mb-5 Doble moderador 
             p Las dos herramientas que se combinan aquí son los grupos de discusión y los cuestionarios estructurados. Los cuestionarios estructurados marcan el rumbo de la investigación, mientras que dos moderadores se encargan de los procedimientos. 
             p Mientras uno se encarga de que la sesión del grupo de discusión se desarrolle sin problemas, el otro se asegura de que se traten todos los temas en cuestión. Los grupos focales con dos moderadores suelen dar lugar a una sesión más productiva y, fundamentalmente, a una recogida óptima de datos.
-          .col-md-4.p-4
+          .col-md-6.col-lg-4.p-4
             figure
               img(src='@/assets/curso/tema2/t2-28.png', alt='Texto que describa la imagen')
     
@@ -307,41 +307,41 @@
     p.mb-5 A estos se les conoce como el tamaño que caracteriza el nivel de calidad de determinados bienes de consumo, de producción y de los procesos que conducen a la producción de un determinado bien. La calidad de los datos tiene cinco características que son: 
 
     LineaTiempoD.color-primario
-      .row(numero="1" titulo="Exactitud")
-        .col-md-8.mb-4.mb-md-0.p-4
+      .row.justify-content-center(numero="1" titulo="Exactitud")
+        .col-md-12.col-lg-8.mb-3.p-4
           p Esta característica de calidad de los datos significa que la información es correcta. Para determinar si estos son exactos o no, pregúntese si la información refleja una situación del mundo real. Por ejemplo, en el ámbito de los servicios financieros, ¿tiene un cliente realmente un millón de dólares en su cuenta bancaria?
           p La exactitud es una característica crucial de la calidad de los datos porque la información inexacta puede causar problemas importantes con graves consecuencias. En el ejemplo anterior: si hay un error en la cuenta bancaria de un cliente, podría ser porque alguien accedió a ella sin su conocimiento.
-        .col-md-4
+        .col-md-6.col-lg-4.mb-3
           figure
             img(src='@/assets/curso/tema2/t2-29.png', alt='Texto que describa la imagen')
-      .row(numero="2" titulo="Integridad")
-        .col-md-8.mb-4.mb-md-0.p-4
+      .row.justify-content-center(numero="2" titulo="Integridad")
+        .col-md-12.col-lg-8.mb-3.p-4
           p Esta se refiere a la amplitud de la información. Al examinar la integridad de los datos, piense en si todos los que necesita están disponibles; puede necesitar el nombre y el apellido de un cliente, pero la inicial del segundo nombre puede ser opcional.
           p ¿Por qué es importante la integridad como característica de calidad de los datos? Si la información está incompleta, puede ser inutilizable. Suponga que va a enviar un correo, necesita el apellido del cliente para asegurarse que el correo va a la dirección correcta; sin él, los datos están incompletos.
-        .col-md-4
+        .col-md-6.col-lg-4.mb-3
           figure
             img(src='@/assets/curso/tema2/t2-30.png', alt='Texto que describa la imagen')
-      .row(numero="3" titulo="Fiabilidad")
-        .col-md-8.mb-4.mb-md-0.p-4
+      .row.justify-content-center(numero="3" titulo="Fiabilidad")
+        .col-md-12.col-lg-8.mb-3.p-4
           p En el ámbito de las características de la calidad de los datos, la fiabilidad significa que un dato no se contradice con otro en una fuente o sistema diferente. 
           p Un ejemplo del ámbito sanitario podría ser:  si la fecha de un pedido es el 1 de abril de 2022 en un sistema, pero es el 15 de abril de 2022 en otro, la información no es fiable. 
           p La fiabilidad es una característica vital de la calidad de los datos. Cuando las piezas de información se contradicen, no se puede confiar en los datos. Podría cometer un error que podría costar a su empresa dinero y daños a su reputación.
-        .col-md-4
+        .col-md-6.col-lg-4.mb-3
           figure
             img(src='@/assets/curso/tema2/t2-31.png', alt='Texto que describa la imagen')
-      .row(numero="4" titulo="Pertinencia")
-        .col-md-8.mb-4.mb-md-0.p-4
+      .row.justify-content-center(numero="4" titulo="Pertinencia")
+        .col-md-12.col-lg-8.mb-3.p-4
           p Cuando se analizan las características de la calidad de los datos, la relevancia entra en juego porque tiene que haber una buena razón para recoger esta información en primer lugar. Debe considerar si realmente necesita esta información o si la está recopilando solo porque sí.
           p ¿Por qué es importante la pertinencia como característica de calidad de los datos? Si se recoge información irrelevante, se pierde tiempo y dinero; y sus análisis no serán tan valiosos. 
-        .col-md-4
+        .col-md-6.col-lg-4.mb-3
           figure
             img(src='@/assets/curso/tema2/t2-32.png', alt='Texto que describa la imagen')
-      .row(numero="5" titulo="Puntualidad")
-        .col-md-8.mb-4.mb-md-0.p-4
+      .row.justify-content-center(numero="5" titulo="Puntualidad")
+        .col-md-12.col-lg-8.mb-3.p-4
           p La puntualidad se refiere a la actualidad de la información. Si se ha recogido en la última hora, es oportuna, a menos que haya llegado información nueva que haga inútil la anterior. 
           p La puntualidad de la información es una característica importante de la calidad de los datos, porque la información que no es oportuna puede llevar a las personas a tomar decisiones equivocadas. A su vez, esto cuesta a las organizaciones tiempo, dinero y daños a la reputación.
           p "La puntualidad es una característica importante de la calidad de los datos: la información desactualizada cuesta tiempo y dinero a las empresas“.
-        .col-md-4
+        .col-md-6.col-lg-4.mb-3
           figure
             img(src='@/assets/curso/tema2/t2-33.png', alt='Texto que describa la imagen')
 
