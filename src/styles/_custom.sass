@@ -115,8 +115,10 @@
   &_2
     background-color: #DBFFFA
     height: 232px
+    @media screen and (max-width: 1024px)
+      height: 260px
     @media screen and (max-width: 992px)
-      height: 279px
+      height: 300px
     @media screen and (max-width: 420px)
       height: auto
   &_3
@@ -124,14 +126,25 @@
     margin-top: 30px
   &_4
     background-color: #FFF4BF
+  &_4_1
+    background-color: #FFF4BF
+    height: 232px
+    @media screen and (max-width: 1024px)
+      height: 260px
+    @media screen and (max-width: 992px)
+      height: 300px
+    @media screen and (max-width: 420px)
+      height: auto
   &_5
     background-color: #F4B400
     margin-top: 30px
   &_6
     background-color: #B8ADFF
     height: 232px
+    @media screen and (max-width: 1024px)
+      height: 260px
     @media screen and (max-width: 992px)
-      height: 279px
+      height: 300px
     @media screen and (max-width: 420px)
       height: auto
   &_7_1
@@ -160,9 +173,20 @@
     background-color: #D3F9F2
   &_11
     background-color: #DBFFFA
+    height: 246px
+    @media screen and (max-width: 1024px)
+      height: 260px
+    @media screen and (max-width: 992px)
+      height: 273px
+    @media screen and (max-width: 420px)
+      height: auto
   &_12
     background-color: #FFF4BF
     height: 246px
+    @media screen and (max-width: 1024px)
+      height: 260px
+    @media screen and (max-width: 992px)
+      height: 273px
     @media screen and (max-width: 420px)
       height: auto
   &_13
@@ -179,12 +203,14 @@
       background-color: $color-acento-botones !important
       border-color: $color-acento-botones 
     .slyder-a__bullets__item
-      background-color: #C0B6FE
+      background-color: #F4B400
     
   &_16
     background-color: #F5F1DD
   &_17
     background-color: #F5F1DD
+  &_17_1
+    background-color: #F4B40040
   &_18
     background-color: #BEFFF4
     &::before
@@ -226,7 +252,7 @@
       background-color: #F4B400 !important
       border-color: #F4B400 
     .slyder-a__bullets__item
-      background-color:  #C0B6FE
+      background-color:  #F4B400
   &_25
     background-color: #9CA3AF
     border-radius: 10px
@@ -246,7 +272,9 @@
     &::before
       background-color: #FFD400
   &_29
-    background-color: #F4B400
+    background-color: #F4B40080
+  &_29_1
+    background-color: #F4B40040
   &_30
     background-color: #BEFFF4
     border-radius: 10px
@@ -274,6 +302,28 @@
       background-color: #F4B400
   &_33
     background-color: #DBFFFA 
+.bg_grad-01_1
+  position: relative
+  div
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0
+    top: 31px;
+    left: -3%;
+    width: 33%;
+    height: 19%;
+    background: #FFF4BF
+    background-repeat: no-repeat
+    background-size: contain
+    @media screen and (max-width: 992px)
+      top: -11px
+    @media screen and (max-width: 420px)
+      top: -19px
+      left: -5px
+      width: 48%
+      height: 16%
 .bg_grad-01
   position: relative
   div
@@ -370,17 +420,19 @@
     content: ''
     position: absolute
     margin: 0
-    top: 0
-    right: 0
+    top: 40px
+    right: -25px
     width: 33%
     height: 36%
     background: #DBFFFA
     background-repeat: no-repeat
     background-size: contain
+    @media screen and (max-width: 1024px)
+      top: -15px
     @media screen and (max-width: 992px)
       top: -11px
     @media screen and (max-width: 420px)
-      top: 74%
+      top: 74px
       right: 0
       width: 48%
       height: 31%
@@ -392,13 +444,15 @@
     content: ''
     position: absolute
     margin: 0
-    top: 80px;
-    left: -3%;
-    width: 33%;
-    height: 19%;
+    top: -10px;
+    left: -2%;
+    width: 25%;
+    height: 40%;
     background: #FFF4BF
     background-repeat: no-repeat
     background-size: contain
+    @media screen and (max-width: 1024px)
+      top: -15px
     @media screen and (max-width: 992px)
       top: -11px
     @media screen and (max-width: 420px)
@@ -496,8 +550,9 @@
       height: 16%
 .bg_grad-11
   position: relative
-  .linea-tiempo-b__row, .linea-tiempo-b__icon
-    background-color: #F6F6F6 !important
+  .linea-tiempo-b__icon
+    background-color: #E8E8E8 !important
+  .linea-tiempo-b__row 
     position: relative 
   &::before
     content: ''
@@ -621,6 +676,8 @@
       background-color: #F6F6F6
   .tabs-a__tab__selected
     color: #12263F !important
+    background-color: #9CA3AF !important
+  .tabs-a__tab__selected:before
     background-color: #9CA3AF !important
   &_1
     background-color: #FFFBEF

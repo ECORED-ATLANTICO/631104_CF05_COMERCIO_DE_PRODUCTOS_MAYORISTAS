@@ -7,21 +7,18 @@
         span 3
       h1 Normativa y confidencialidad de la información
   
-    .row.mb-5.justify-content-center
-      .col-12.col-md-12.col-lg-8.bg_grad-04.mb-3.mb-md-0.d-flex.align-items-center.order-2.order-lg-1(data-aos="fade-right")
+    .row.mb-3.justify-content-center
+      .col-12.col-md-12.col-lg-5.order-2.order-lg-1.bg_grad-04.mb-3.d-flex.align-items-center(data-aos="fade-right")
         p La autorización especial de datos personales sensibles se refiere a la implementación y uso de los diferentes medios disponibles para la obtención de la autorización de información de los titulares: es decir, el manejo de los datos sensibles; no obstante, la Ley 1581 de 2012, los decretos y normas reglamentarias, faculta el manejo de los datos, por tanto, no se tiene obligatoriedad de otorgar autorización para el tratamiento de los datos sensibles, tales como:  
-      .col-12.col-md-6.col-lg-4.order-1.order-lg-2.mb-3(data-aos="fade-left")
+      .col-12.col-md-6.col-lg-3.order-1.order-lg-2.mb-3(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema3/t3-1.png', alt='Texto que describa la imagen')
 
-    .row.mb-5
-      .col-12
-        .titulo-sexto.color-acento-botones.mb-5
-          h5 Figura 2
-          span Tratamiento de datos
-
     .row.mb-5.justify-content-center
       .col-12.col-md-10
+        .titulo-sexto.color-acento-contenido.mb-3
+          h5 Figura 2
+          span Tratamiento de datos
         figure
           img(src='@/assets/curso/tema3/t3-2.svg', class="img-fluid d-none d-lg-block", alt='Texto que describa la imagen')
           img(src='@/assets/curso/tema3/t3-2-m.svg', class="img-fluid d-block d-lg-none", alt='Texto que describa la imagen')
@@ -115,10 +112,10 @@
       .h2 3.1 Base de datos
     
     .row.mb-5.justify-content-center
-      .col-12.col-md-6.col-lg-4.mb-3.order-1.order-lg-2.mb-3(data-aos="fade-right")
+      .col-12.col-md-6.col-lg-3.mb-3(data-aos="fade-right")
         figure
           img(src='@/assets/curso/tema3/t3-8.svg', alt='Texto que describa la imagen')
-      .col-12.col-md-12.col-lg-6.order-2.order-lg-1.d-flex.align-items-center.bg_grad-05(data-aos="fade-left")
+      .col-12.col-md-12.col-lg-7.d-flex.align-items-center.bg_grad-05(data-aos="fade-left")
         p.mb-0 Esta se refiere a un conjunto de datos relacionados y a la forma en que están organizados. El acceso a estos suele ser proporcionado por un Sistema de Gestión de Bases de Datos (SGBD) que consiste en un conjunto integrado de programas informáticos que permite a los usuarios interactuar con una o varias bases de datos y proporciona acceso a todos los datos contenidos en la base de datos (aunque pueden existir restricciones que limiten el acceso a determinados datos). 
     
     .row.mb-5.justify-content-center
@@ -148,14 +145,14 @@
     p.mb-5 Las metodologías o técnicas aplicadas para una base de datos demandan realizar:
 
     .row.mb-5.justify-content-center
-      .col-12.col-md-6.mb-3.mb-md-0(data-aos="zoom-in-up")
+      .col-12.col-md-6.col-lg-4.mb-3.mb-md-0(data-aos="zoom-in-up")
         .bgr_19.h-100
           figure.p-4.d-flex.justify-content-center
             img.img140(src='@/assets/curso/tema3/t3-10.svg', alt='Texto que describa la imagen')
           div.p-4
             h2.text-center 01
             p.mb-0 Un análisis o exploración de datos, esto tiene como objeto identificar patrones y la relación que hay entre ellos.
-      .col-12.col-md-6(data-aos="zoom-in-up")
+      .col-12.col-md-6.col-lg-4(data-aos="zoom-in-up")
         .bgr_20
           figure.p-4.d-flex.justify-content-center
             img.img140(src='@/assets/curso/tema3/t3-11.svg', alt='Texto que describa la imagen')
@@ -179,11 +176,11 @@
     #t_3_2.titulo-segundo.color-acento-botones(data-aos="fade-right")
       .h2 3.2 Manejo de datos personales
     
-    .row.mb-5.justify-content-center
-      .col-12.col-md-12.col-lg-6.order-2.order-lg-1d-flex.align-items-center.bg_grad-06(data-aos="fade-right")
+    .row.mb-3.justify-content-center.align-items-center
+      .col-12.col-md-12.col-lg-7.order-2.order-lg-1d-flex.align-items-center.bg_grad-06(data-aos="fade-right")
         div
           p El manejo de datos se regula mediante el derecho de <em>Habeas Data</em>, el cual por el cual en Colombia se autoriza a los habitantes residentes a actualizar, conocer, y rectificar toda la información que tengan las distintas entidades y bases de datos del territorio nacional.  Este derecho nació como parte importante de los artículos 15 y 20 de la Constitución Política, los cuales más adelante, fueron desarrollados como un derecho autosuficiente y sin dependencia, que disfrutan todos los colombianos hoy en día. 
-      .col-12.col-md-6.col-lg-4.order-1.order-lg-2.mb-3(data-aos="fade-left")
+      .col-12.col-md-6.col-lg-3.order-1.order-lg-2.mb-3(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema3/t3-13.png', alt='Texto que describa la imagen')
     
@@ -193,7 +190,7 @@
           p.mb-0 Revisando la historia es desde 1995 cuando se comienza a tener esta excepción, no obstante, en el 2008 se crea la primera Ley de Habeas Data, la 1266, la cual tiene un carácter particular que solo aplica para la información financiera, por lo que los bancos usaban esta información para evaluar el peligro crediticio de una persona, como hábitos de pago, créditos tomados antes y sueldo o ingresos promedios.
 
     .row.mb-5.justify-content-center
-      .col-12.col-md-10
+      .col-12.col-md-10.col-lg-12
         .bgr_30.p-5
           .row.justify-content-center 
             .col-12.col-md-6.col-lg-4.mb-3
@@ -208,15 +205,13 @@
                   p <b>Enlace web.</b> La Ley 1266 de 2008, también conocida como Ley de Habeas Data.
     
     p.mb-5 Por su lado, la ley más vigente del derecho de Habeas Data ha sido emitida en el 2012. La ley 1581 es de carácter general y se aplica en todos los espacios de recolección de datos de una persona y que, por lo tanto, no son financieros ni crediticios. Son usados por entidades de naturaleza pública o privada. En esta ley se resume todo el funcionamiento de la información de una persona; por ello, en la siguiente figura se mencionan los elementos que se tienen en cuenta de manera general:
-
-    .row.mb-5
-      .col-12
-        .titulo-sexto.color-acento-botones.mb-5
-          h5 Figura 3
-          span Responsabilidades manejo de datos
+    
 
     .row.mb-5.justify-content-center
       .col-12.col-md-10
+        .titulo-sexto.color-acento-contenido.mb-5
+          h5 Figura 3
+          span Responsabilidades manejo de datos
         figure
           img(src='@/assets/curso/tema3/t3-14.svg', class="img-fluid d-none d-lg-block", alt='Texto que describa la imagen')
           img(src='@/assets/curso/tema3/t3-14-m.svg', class="img-fluid d-block d-lg-none", alt='Texto que describa la imagen')

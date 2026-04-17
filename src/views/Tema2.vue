@@ -8,14 +8,14 @@
       h1 Procesamiento de datos
 
     .row.mb-5.justify-content-center
-      .col-12.col-md-4.mb-3.mb-md-0(data-aos="fade-right")
+      .col-12.col-md-6.col-lg-4.mb-3(data-aos="fade-right")
         figure
           img(src='@/assets/curso/tema2/t2-1.png', alt='Texto que describa la imagen')
-      .col-12.col-md-6.d-flex.align-items-center.bg_grad-02(data-aos="fade-left")
+      .col-12.col-md-12.col-lg-6.d-flex.align-items-center.bg_grad-02(data-aos="fade-left")
         p.mb-0 Los datos en bruto no son útiles para ninguna organización, ya que solos o no organizados no dicen nada o no aportan nada a la gestión de la misma; sin embargo, cuando se hace el procesamiento de datos se utiliza un método de recopilación de datos en bruto y se usa para hacer la traducción de estos en información utilizable, útil y organizada, es cuando realmente toman relevancia. Este suele realizarse en un proceso paso a paso por un equipo de científicos e ingenieros de datos. El proceso es el siguiente:
     
     .row.mb-5.justify-content-center
-      .col-12.col-md-10 
+      .col-12.col-md-12.col-lg-10
         .titulo-sexto.color-acento-contenido.mb-5
           h5 Figura 1
           span Procesamiento de datos
@@ -24,17 +24,17 @@
           img(src='@/assets/curso/tema2/t2-2-m.svg', class="img-fluid d-block d-lg-none", alt='Texto que describa la imagen')
 
     .row.mb-5.justify-content-center
-      .col-12.col-md-7.bg_grad-03.mb-3.mb-md-0(data-aos="fade-up-right")
+      .col-12.col-md-12.col-lg-7.order-2.order-lg-1.bg_grad-03.mb-3(data-aos="fade-up-right")
         p El procesamiento de datos es de gran importancia para que las organizaciones creen mejores estrategias de negocio y aumenten su ventaja competitiva. Al convertir los datos en un formato legible, como: gráficos, tablas y documentos, los empleados de toda la organización pueden entenderlos y utilizarlos para el beneficio de la empresa.
         p.mb-0 Por otro lado, el ciclo de procesamiento de datos consiste en una serie de pasos en los que los datos en bruto (entrada) se introducen en un proceso para producir información procesable (salida). Cada paso se realiza en un orden determinado, pero todo se repite de forma cíclica. El resultado del primer ciclo de procesamiento de datos puede almacenarse y utilizarse como entrada para el siguiente ciclo. 
-      .col-12.col-md-3(data-aos="fade-up-left")
+      .col-12.col-md-6.col-lg-3.order-1.order-lg-2.mb-3(data-aos="fade-up-left")
         figure
           img(src='@/assets/curso/tema2/t2-3.svg', alt='Texto que describa la imagen')
   
     p.mb-5 En general, el ciclo de procesamiento de datos consta de seis pasos principales que se describen de la siguiente manera:
 
     .row.mb-5.justify-content-center
-      .col-12.col-md-10
+      .col-12.col-md-12.col-lg-10
         PasosA.color-acento-botones.mb-5.colr_5(tipo="n")
           .row
             .col-md-2.mb-4.mb-md-0(data-aos="fade-right")
@@ -84,30 +84,30 @@
 
     .tarjeta.bgr_15.p-4.mb-5(data-aos="flip-up")
       SlyderA(tipo="b")
-        .row
-          .col-md-8.col-lg-4.p-4
+        .row.justify-content-center
+          .col-md-12.col-lg-4.p-4
             h4.mb-5 Procesamiento manual de datos 
             p En este método los datos se procesan manualmente. 
             p Todo el proceso de recopilación de datos, filtrado, clasificación, cálculo y otras operaciones lógicas se realiza con intervención humana, sin utilizar ningún otro dispositivo electrónico o software de automatización.
             p.mb-0 Es un método de bajo coste y no requiere apenas herramientas, pero produce grandes errores, altos costes de mano de obra y mucho tiempo.
-          .col-md-4.col-lg-8.p-4
+          .col-md-6.col-lg-8.p-4
             figure
               img(src='@/assets/curso/tema2/t2-10.png', alt='Texto que describa la imagen')
-        .row
-          .col-md-4.p-4
+        .row.justify-content-center
+          .col-md-12.col-lg-4.p-4
             h4.mb-5 Procesamiento mecánico de datos 
             p Los datos se procesan mecánicamente mediante el uso de dispositivos y máquinas. 
             p Estos pueden incluir dispositivos simples como  calculadoras, máquinas de escribir, imprentas, etc. Con este método se pueden realizar operaciones sencillas de procesamiento de datos. 
             p.mb-0 Tiene muchos menos errores que el procesamiento manual de datos, pero el aumento de estos ha hecho que este método sea más complejo y difícil.
-          .col-md-8.p-4
+          .col-md-6.col-lg-8.p-4
             figure
               img(src='@/assets/curso/tema2/t2-11.png', alt='Texto que describa la imagen')
-        .row
-          .col-md-4.p-4
+        .row.justify-content-center
+          .col-md-12.col-lg-4.p-4
             h4.mb-5 Procesamiento electrónico de datos 
             p Los datos se procesan con tecnologías modernas utilizando <em>software</em> y programas de procesamiento de datos. Se da un conjunto de instrucciones al <em>software</em> para que  los procese  y produzca un resultado. 
             p.mb-0 Este método es el más caro, pero proporciona velocidades de procesamiento más rápidas con la mayor fiabilidad y precisión de los resultados.
-          .col-md-8.p-4
+          .col-md-6.col-lg-8.p-4
             figure
               img(src='@/assets/curso/tema2/t2-12.png', alt='Texto que describa la imagen')
  
@@ -164,39 +164,39 @@
     p.mb-5 Otro de los elementos clave que se debe tener en cuenta son las técnicas de recolección de información que se pueden usar en un proceso de investigación, las cuales son analizadas en el siguiente recurso:
 
     AcordionA.mb-5.bgr_9(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
-      .row(titulo="Observación").p-4
-        .col-md-8.mb-4.mb-md-0.align-items-center.p-4
+      .row.justify-content-center(titulo="Observación").p-4
+        .col-md-12.col-lg-8.mb-3.align-items-center.p-4
           p La simple observación es útil y factible cuando se trata de conocer hechos o situaciones que de alguna manera tienen cierto carácter público, o que al menos no pertenecen estrictamente a la esfera del comportamiento privado de los individuos. 
           p Es viable mediante este procedimiento conocer los hábitos de compra, el  comportamiento político o los hábitos de las personas observadas como son: 
           p.mb-0.text-bold •	Hábitos de vestimenta,
           p.mb-0.text-bold •	Asistencia a lugares públicos y
           p.text-bold •	Comportamiento social, etc. 
           p.mb-0 Los datos obtenidos apuntan casi siempre a los aspectos más superficiales o visibles de la realidad social, aunque  esto no significa que carezcan de importancia.
-        .col-md-4
+        .col-md-6.col-lg-4
           figure
             img(src='@/assets/curso/tema2/t2-18.png', alt='Texto que describa la imagen')
-      .row(titulo="Entrevista").p-4
-        .col-md-8.mb-4.mb-md-0.align-items-center.p-4
+      .row.justify-content-center(titulo="Entrevista").p-4
+        .col-md-12.col-lg-8.mb-3.align-items-center.p-4
           p Desde el punto de vista del método, es una forma específica de interacción social cuya finalidad es recoger datos para una investigación.
           p Aquí el investigador hace preguntas a personas capaces de proporcionarle datos de interés, estableciendo un diálogo peculiar y asimétrico, donde una de las partes busca recoger información y la otra es la fuente de esa información. Por razones obvias, solo se utiliza, con raras excepciones en las ciencias humanas. 
           p.mb-0 La ventaja esencial de la entrevista radica en que son los propios actores sociales los que proporcionan los datos relativos a sus comportamientos, opiniones, deseos, actitudes y expectativas, que por su propia naturaleza son casi imposibles de observar desde el exterior. Nadie mejor que la persona implicada para contar lo que piensa y siente, lo que ha vivido o lo que piensa hacer.
-        .col-md-4
+        .col-md-6.col-lg-4
           figure
             img(src='@/assets/curso/tema2/t2-19.png', alt='Texto que describa la imagen')
-      .row(titulo="Encuesta").p-4
-        .col-md-8.mb-4.mb-md-0.align-items-center.p-4
+      .row.justify-content-center(titulo="Encuesta").p-4
+        .col-md-12.col-lg-8.mb-3.align-items-center.p-4
           p Es un diseño que proporciona un plan para efectuar una descripción numérica de las tendencias, actitudes u opiniones de una población mediante el estudio de una muestra de la misma.
           p Es decir, en la literatura clásica sobre metodología de la investigación, la encuesta es considerada como una técnica cuantitativa para recoger, a través de preguntas, datos de un grupo seleccionado de personas; sin embargo, más recientemente algunos autores consideran que también puede ser utilizada para recoger datos cualitativos o mixtos. 
           p.mb-0 En realidad, las encuestas son diseños no experimentales que la mayoría de las veces son transversales, aunque si se repiten periódicamente desarrollan un formato longitudinal y consisten en preguntar a los individuos sobre cuestiones específicas y obtener sus respuestas.
-        .col-md-4
+        .col-md-6.col-lg-4
           figure
             img(src='@/assets/curso/tema2/t2-20.png', alt='Texto que describa la imagen')
-      .row(titulo="Análisis documental").p-4
-        .col-md-8.mb-4.mb-md-0.align-items-center.p-4
+      .row.justify-content-center(titulo="Análisis documental").p-4
+        .col-md-12.col-lg-8.mb-3.align-items-center.p-4
           p El análisis de documentos es un procedimiento sistemático para revisar o evaluar documentos, tanto impresos como lo son: los folletos, libros, periódicos, revistas, y los electrónicos (basados en el ordenador y transmitidos por internet).
           p Al igual que otros métodos analíticos de la investigación cualitativa, el análisis de documentos requiere que los datos sean examinados e interpretados con el fin de obtener significado, comprensión y desarrollar conocimiento empírico. Estos contienen texto (palabras) e imágenes que se han registrado sin la intervención del investigador. 
           p.mb-0 A efectos de este debate, no se incluyen otras pruebas mudas o de rastreo, como los artefactos se refieren a los documentos como “hechos sociales”, que se producen, se comparten y se utilizan de forma socialmente organizada.
-        .col-md-4
+        .col-md-6.col-lg-4
           figure
             img(src='@/assets/curso/tema2/t2-21.png', alt='Texto que describa la imagen')
      
@@ -206,11 +206,11 @@
       .h2 2.2 Instrumentos de recolección de datos
     
     .row.mb-5.justify-content-center
-      .col-12.col-md-6.d-flex.align-items-center.bg_grad-01(data-aos="fade-right")
+      .col-12.col-md-12.col-lg-6.d-flex.align-items-center.bg_grad-01(data-aos="fade-right")
         div
           p Las herramientas o instrumentos de recopilación de datos se refieren a los dispositivos/instrumentos utilizados para recopilar datos, como un cuestionario en papel o un sistema de entrevistas asistido por ordenador, en adición los estudios de casos, las listas de comprobación, las entrevistas, la observación en ocasiones y las encuestas o cuestionarios son todas herramientas utilizadas para recoger datos. 
           p Es importante decidir las herramientas de recogida de datos porque la investigación se lleva a cabo de diferentes maneras y con diferentes fines. El objetivo de la recogida de datos es captar pruebas de calidad que permitan un análisis que conduzca a la formulación de respuestas convincentes y creíbles a las preguntas planteadas.
-      .col-12.col-md-4(data-aos="fade-left")
+      .col-12.col-md-4.col-lg-4(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema2/t2-22.png', alt='Texto que describa la imagen')
 

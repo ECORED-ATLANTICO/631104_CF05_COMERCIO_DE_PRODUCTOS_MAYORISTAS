@@ -8,7 +8,7 @@
       h1 Fuentes de información
     
     .row.mb-5.justify-content-center
-      .col-12.col-md-6.d-flex.align-items-center.bg_grad-01(data-aos="fade-right")
+      .col-12.col-md-12.col-lg-6.order-2.order-lg-1.d-flex.align-items-center.bg_grad-01_1(data-aos="fade-right")
         div
           p Se entiende por fuentes de información, los procedimientos, equipos y programas informáticos que se emplean, diseñan, construyen, operan y mantienen para recoger, registrar, procesar, almacenar, recuperar, mostrar y transmitir información, incluyendo el talento humano.
           p Cualquier cosa que pueda informar a una persona sobre algo o proporcionar conocimientos es una fuente de información; estas pueden  ser: 
@@ -34,7 +34,7 @@
                 li.mb-2
                   i.fas.fa-check.colr_2
                   | Organizaciones, etc.
-      .col-12.col-md-4(data-aos="fade-left")
+      .col-12.col-md-8.col-lg-4.order-1.order-lg-2.mb-3(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema1/t1-1.png', alt='Texto que describa la imagen')
 
@@ -52,7 +52,7 @@
             .bgr_1.pt-5.pb-3.position-relative
               p.mb-0.text-bold.text-center Formato
               img.pst_1(src='@/assets/curso/tema1/t1-2.svg' alt='AvatarTop')
-            .bgr_2.p-5
+            .bgr_2.p-4
               ul.lista-ul--color
                 li.mb-2
                   i.fas.fa-paper-plane.colr_3
@@ -69,7 +69,7 @@
             .bgr_3.pt-5.pb-3.position-relative
               p.mb-0.text-bold.text-center Estado
               img.pst_1(src='@/assets/curso/tema1/t1-3.svg' alt='AvatarTop')
-            .bgr_4.p-5
+            .bgr_4_1.p-4
               ul.lista-ul--color
                 li.mb-2
                   i.fas.fa-paper-plane.colr_3
@@ -89,7 +89,7 @@
             .bgr_5.pt-5.pb-3.position-relative
               p.mb-0.text-bold.text-center(style="color: #FFFFFF;") Ubicación
               img.pst_1(src='@/assets/curso/tema1/t1-4.svg' alt='AvatarTop')
-            .bgr_6.p-5
+            .bgr_6.p-4
               ul.lista-ul--color
                 li.mb-2
                   i.fas.fa-paper-plane.colr_3
@@ -105,7 +105,7 @@
     p.mb-5 Son los primeros registros publicados de la investigación original y el desarrollo o la descripción de una nueva aplicación o una nueva interpretación de un tema o idea antigua. Son documentos originales que representan ideas originales no filtradas, por lo que estos constituyen la última información disponible por lo que un investigador que produce contenido nuevo puede ponerlo a disposición de la comunidad particular a través de las fuentes primarias. A menudo, estas pueden ser la única fuente de información existente.
 
     .row.mb-5.justify-content-center
-      .col-12.col-md-10
+      .col-12.col-md-12.col-lg-10
         .bloque-texto-g.bgr_4.p-3.p-sm-4.p-md-5
           .bloque-texto-g__img(
             :style="{'background-image': `url(${require('@/assets/curso/tema1/t1-5.png')})`}"
@@ -116,12 +116,12 @@
     p.mb-5 Por lo anterior, el ritmo de crecimiento de una disciplina depende en gran medida de la cantidad de literatura que se produce en forma de fuentes primarias que dan cuenta del desarrollo en el campo en cuestión, es por eso que esta se constituye en el primer acceso a información disciplinar en investigación para describir el material de origen más cercano a la persona el periodo o la idea que se estudia.
 
     .row.mb-5.justify-content-center(data-aos="flip-up")
-      .col-12.col-md-10 
-        .cajon.bgr_7.px-5.py-4
+      .col-12.col-md-12.col-lg-10 
+        .cajon.bgr_8.px-5.py-4
           p.mb-0 Una fuente primaria (también llamada fuente original) es un artefacto, un documento, una grabación u otra fuente de información que fue creada en la época que se estudia, si fue elaborada por una fuente humana, se trata de una fuente con conocimiento personal directo de los acontecimientos que se describen. 
 
     .row.mb-5.justify-content-center
-      .col-12.col-md-10
+      .col-12.col-md-12.col-lg-10
         p.text-bold Ejemplos de fuentes primarias: 
     
     .row.mb-5.justify-content-center
@@ -220,7 +220,7 @@
     p.mb-5 La información contenida en las fuentes primarias está disponible en una forma más conveniente. Pero, por su propia naturaleza, las fuentes secundarias son más fáciles de conseguir que las primarias, ya que estas no solo proporcionan información digerida, sino que también sirven de clave bibliográfica de información en investigación, por lo que las fuentes primarias son las primeras en aparecer, a las que siguen las secundarias. 
 
     .row.mb-5.justify-content-center(data-aos="flip-up")
-      .col-12.col-md-10 
+      .col-12.col-md-12.col-lg-12
         .cajon.bgr_8.px-5.py-4
           p.mb-0 Es difícil encontrar información de fuentes primarias directamente. Por lo tanto, hay que consultar en primer lugar las fuentes secundarias, que nos llevarán a las fuentes primarias específicas. 
     
@@ -228,7 +228,7 @@
     p.mb-5 Las fuentes de información secundarias se encuentran divididas en tres tipos que se pueden ver a continuación:
 
     .row.mb-5.justify-content-center
-      .col-12.col-md-10
+      .col-12.col-md-12.col-lg-10
         AcordionA.mb-5.bgr_9(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
           .row(titulo="Índice").p-4
             .col-md-6.mb-4.mb-md-0.align-items-center.p-4
@@ -264,7 +264,7 @@
     p.mb-5 Esta es la categoría más problemática de todas, sin embargo, rara vez se espera que la gente diferencie entre fuentes secundarias y terciarias. Por lo que existen materiales en los que la información de las fuentes secundarias ha sido digerida, reformateada y condensada para ponerla en una forma conveniente y fácil de leer, estas fuentes se alejan en el tiempo de las fuentes secundarias y de obras que indexan, organizan y recopilan las citas de las fuentes secundarias.
     
     .row.mb-5.justify-content-center(data-aos="flip-up")
-      .col-12.col-md-10 
+      .col-12.col-md-12.col-lg-10
         .cajon.bgr_7.px-5.py-4
           p.mb-0 Las fuentes de información terciarias contienen información destilada y recopilada de fuentes primarias y secundarias. La función principal de las fuentes de información terciarias es ayudar al buscador de información a utilizar las fuentes de información primarias y secundarias. La mayoría de estas fuentes no contienen conocimientos sobre el tema. Ahora bien, debido al aumento de la literatura, las fuentes terciarias son cada vez más importantes ya que de los distintos tipos de fuentes, las terciarias son las últimas en aparecer y estas son:
     .row.mb-5
@@ -293,7 +293,7 @@
     p.mb-5 Las fuentes de información no documentales constituyen una parte sustancial de la comunicación, especialmente en ciencia y tecnología. Los estudios de usuarios han subrayado la importancia, ya que proporcionan información que otras fuentes no lo hacen. Estos tipos de fuentes se pueden revisar a continuación:
 
     .row.mb-5.justify-content-center
-      .col-12.col-md-5.mb-3.mb-md-0(data-aos="fade-right")
+      .col-12.col-md-6.col-lg-5.mb-3.mb-md-0(data-aos="fade-right")
         p.text-bold.mb-0.etiqueta_1.text-center.p-3 Fuentes formales
         figure
           img(src='@/assets/curso/tema1/t1-18.png', alt='Texto que describa la imagen')
@@ -319,7 +319,7 @@
             li.mb-2
               i.fas.fa-angle-right.colr_3
               | Consultores.
-      .col-12.col-md-5(data-aos="fade-left")
+      .col-12.col-md-6.col-lg-5(data-aos="fade-left")
         p.text-bold.mb-0.etiqueta_2.text-center.p-3 Fuentes informales 
         figure
           img(src='@/assets/curso/tema1/t1-19.png', alt='Texto que describa la imagen')

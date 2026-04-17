@@ -20,7 +20,7 @@
       .col-12.col-md-6.col-lg-2.mb-3.mb-3(data-aos="fade-right")
         figure.d-flex.justify-content-center
           img.img180(src='@/assets/curso/tema6/t6-2.svg', alt='Texto que describa la imagen')
-      .col-12.col-md-12.col-md-8.d-flex.align-items-center(data-aos="fade-left")
+      .col-12.col-md-12.col-lg-8.d-flex.align-items-center(data-aos="fade-left")
         p Por otro lado, no solo se habla de las necesidades del cliente final, sino también de los intermediarios y las garantías van más allá de un producto o servicio defectuoso o de baja calidad, por lo que se hace necesario entender dos mundos distintos, uno camino a la comercialización y otro con destino al usuario final, por lo que estas empresas de comercialización de productos mayoristas deben absorber la información del medio y tendencias, a la hora de utilizar el producto para su propósito final, si este fue eficiente, si resolvió la necesidad adecuadamente, si es de alta calidad y resistente al entorno en el cual estará sometido, todos estos factores solo se resolverán a través del servicio posventa.
     
     .row.justify-content-center(data-aos="flip-up")
@@ -77,28 +77,28 @@
     p.mb-5 Existen varios tipos de posventa que vale la pena mencionar, estos son:
 
     .tarjeta--container.row
-      .col-md-6.col-lg-3.tarjeta.bgr_17.p-5.mb-3
+      .col-md-6.col-lg-6.col-xl-3.tarjeta.bgr_29_1.p-5.mb-3
         .row.justify-content-center.mb-4
           .col-6
             figure
               img.img80(src='@/assets/curso/tema6/t6-7.svg', alt='Texto que describa la imagen')
         h2.text-center Promocionales 
         p Se enfocan en la promoción de las ventas de los productos o servicios de las empresas.
-      .col-md-6.col-lg-3.tarjeta.bgr_29.p-5.mb-3
+      .col-md-6.col-lg-6.col-xl-3.tarjeta.bgr_29.p-5.mb-3
         .row.justify-content-center.mb-4
           .col-6
             figure
               img.img80(src='@/assets/curso/tema6/t6-8.svg', alt='Texto que describa la imagen')
         h2.text-center Psicológicos  
         p Enfocados en la parte motivacional del cliente y en esa sensación que las empresas deben transmitir de que el cliente les importa.
-      .col-md-6.col-lg-3.tarjeta.bgr_17.p-5.mb-3
+      .col-md-6.col-lg-6.col-xl-3.tarjeta.bgr_29_1.p-5.mb-3
         .row.justify-content-center.mb-4
           .col-6
             figure
               img.img80(src='@/assets/curso/tema6/t6-9.svg', alt='Texto que describa la imagen')
         h2.text-center De seguridad
         p Permiten dar esa sensación de seguridad y garantía de que el producto y/o servicio es de alta calidad, que está destinado y creado perfectamente para soportar las condiciones de su uso final.
-      .col-md-6.col-lg-3.tarjeta.bgr_29.p-5.mb-3
+      .col-md-6.col-lg-6.col-xl-3.tarjeta.bgr_29.p-5.mb-3
         .row.justify-content-center.mb-4
           .col-6
             figure
@@ -114,7 +114,7 @@
     p Para la realización correcta de  un servicio posventa debe completar unas etapas, que van más allá de la atención en un punto físico o llamada, este debe ser un seguimiento constante, con una comunicación directa con el cliente que generen cercanía y desarrollen fidelidad a la marca y producto de la empresa.
     p.mb-5 Estas etapas se pueden variar de acuerdo con las necesidades de cada empresa, pero sus bases siempre serán las mismas; y estas son las etapas:
     
-    LineaTiempoB.color-primario.mb-5.bg_grad-11(:datos="datosLineaTiempoB")
+    LineaTiempoB.color-primario.p-2.mb-5.bg_grad-11(:datos="datosLineaTiempoB")
 
     p La experiencia del cliente en cuanto al servicio posventa, con cualquier canal que se utilice dentro de este punto hará efectiva la relación de marca-cliente, producto/servicio-cliente, el lugar buscado, <em>email marketing</em>, telemercadeo, mensajes automatizados en redes sociales, <em>boot chats</em>, entre otras estrategias que crean el entorno propicio para el crecimiento de la marca de las empresas.
 
@@ -264,13 +264,13 @@
           p.mb-0 Es necesario entender que sin las garantías los clientes no confían en las marcas y sin normas diseñadas adecuadamente, limitarían su alcance y podrían generar pérdidas sustanciales para las empresas.
 
     .row.mb-5.justify-content-center
-      .col-12.col-md-10(data-aos="flip-up")
+      .col-lg-12(data-aos="flip-up")
         .bgr_30.p-5
           .row.justify-content-center  
-            .col-12.col-md-6.col-lg-4.mb-3
+            .col-12.col-md-6.col-lg-3.mb-3
               figure
                 img(src='@/assets/curso/tema6/t6-29.svg', alt='Texto que describa la imagen')
-            .col-12.col-md-12-col-lg-8
+            .col-12.col-md-12.col-lg-7
               p En el siguiente video podrá ver un ejemplo de cómo una empresa de gran impacto en el mercado a nivel mundial pone en práctica, todos y cada uno de los elementos mencionados en este componente formativo para además de hacer una gran venta, seguir en contacto con sus clientes mediante elementos claves o principios de posventa. 
               a.anexo.mb-4.mb-lg-0(href="https://www.youtube.com/watch?v=yqyttSMc7ac" target="_blank")
                 .anexo__icono

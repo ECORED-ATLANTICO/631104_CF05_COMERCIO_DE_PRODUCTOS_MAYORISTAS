@@ -21,25 +21,25 @@
           p.mb-0 Existen varias técnicas para resolver los conflictos, estas son, la negociación, la mediación, el arbitraje y la conciliación, las cuales se describen a continuación:
     
     .row.mb-5
-      .col-12.col-md-6.col-lg-3.mb-3.mb-lg-0(data-aos="zoom-in-up")
+      .col-12.col-md-6.col-lg-6.col-xl-3.mb-3(data-aos="zoom-in-up")
         .bgr_31.p-4.h-100
           figure.mb-3.d-flex.justify-content-center 
             img.img90(src='@/assets/curso/tema7/t7-2.svg' alt='AvatarTop')
           p.text-bold.mb-0 La negociación 
           p.mb-0 Es una forma de resolver el conflicto, cuando las partes quieren llegar a una solución conjunta, no se requiere de un tercero, solo las partes interesadas buscan ponerse de acuerdo y presenta cada uno su propuesta.
-      .col-12.col-md-6.col-lg-3.mb-3.mb-lg-0(data-aos="zoom-in-up")
+      .col-12.col-md-6.col-lg-6.col-xl-3.mb-3(data-aos="zoom-in-up")
         .bgr_31.p-4.h-100
           figure.mb-3.d-flex.justify-content-center 
             img.img90(src='@/assets/curso/tema7/t7-3.svg' alt='AvatarTop')
           p.text-bold.mb-0 La mediación 
           p.mb-0 Es un proceso más complejo que la negociación, ya que implica terceros, los mediadores son personas, grupos de personas o una institución, las partes involucradas escogen el mediador, este debe ser neutral, no debe emitir juicios ni tomar decisiones, cumple solamente con el rol de facilitador con el objetivo de ayudar a las partes a mejorar su comunicación y que lleguen a acuerdos que favorezcan a las partes.
-      .col-12.col-md-6.col-lg-3.mb-3.mb-lg-0(data-aos="zoom-in-up")
+      .col-12.col-md-6.col-lg-6.col-xl-3.mb-3(data-aos="zoom-in-up")
         .bgr_31.p-4.h-100
           figure.mb-3.d-flex.justify-content-center 
             img.img90(src='@/assets/curso/tema7/t7-4.svg' alt='AvatarTop')
           p.text-bold.mb-0 El arbitraje 
           p.mb-0 Es un proceso cuasi judicial que involucra a las partes con un árbitro que es escogido por estas, su decisión se constituye como un fallo con efectos jurídicos y de obligatorio cumplimiento.
-      .col-12.col-md-6.col-lg-3.mb-3.mb-lg-0(data-aos="zoom-in-up")
+      .col-12.col-md-6.col-lg-6.col-xl-3.mb-3(data-aos="zoom-in-up")
         .bgr_31.p-4.h-100
           figure.mb-3.d-flex.justify-content-center 
             img.img90(src='@/assets/curso/tema7/t7-5.svg' alt='AvatarTop')
@@ -62,9 +62,9 @@
     
     .row.mb-5.justify-content-center
       .col-12.col-md-10
-        .bloque-texto-g.bgr_17.p-3.p-sm-4.p-md-5
+        .bloque-texto-g.bgr_17_1.p-3.p-sm-4.p-md-5
           .bloque-texto-g__img(
-            :style="{'background-image': `url(${require('@/assets/curso/tema6/t6-28.png')})`}"
+            :style="{'background-image': `url(${require('@/assets/curso/tema7/t7-28.png')})`}"
           )
           .bloque-texto-g__texto.p-4
             p.mb-0.text-bold Pero, ¿quién soluciona los conflictos de los comerciantes?
@@ -164,7 +164,7 @@
     p.mb-5 Para ofrecer un buen servicio posventa, es necesario crear estrategias de control y evaluación con el fin de medir y hacer seguimiento continuo a su aplicación, ello permite a la empresa identificar la eficacia de cada una de ellas con el ánimo de decidir sí es necesario hacer planes de mejora o si es necesario reforzarlas. <b>Para medir y evaluar el servicio posventa es necesario contar con los siguientes indicadores:</b>
 
     .row.mb-5.justify-content-evenly
-      .col-12.col-md-6.col-lg-4.mb-3
+      .col-12.col-md-6.col-lg-3.mb-3
         figure
           img(src='@/assets/curso/tema7/t7-17.svg', alt='Texto que describa la imagen')
       .col-12.col-md-12.col-lg-6.d-flex.align-items-center
