@@ -4,7 +4,7 @@ export default {
     descripcionCurso:
       'Las empresas están dentro de un mercado cambiante que evoluciona a pasos gigantescos y no basta con entenderlo, es el manejo de toda la información que permitirá estar a la vanguardia y su servicio posventa las mantendrá a través del tiempo, estas son y serán las razones de éxito de las organizaciones.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
-    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.svg'),
+    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
