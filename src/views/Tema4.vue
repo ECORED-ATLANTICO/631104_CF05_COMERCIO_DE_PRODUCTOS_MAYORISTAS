@@ -11,19 +11,18 @@
       .col-12.col-md-12.col-lg-6.order-2.order-lg-1.mb-3(data-aos="fade-right")
         p La palabra medición viene del verbo medir que, a su vez viene de la palabra latina <em>metriri</em> que significa “comparar un resultado o cantidad con una unidad de medida previa”, por lo que son muy importantes, ya que posibilitan conocer cómo están funcionando hechos o fenómenos de interés. Las mediciones son relevantes específicamente en una empresa porque permiten: 
         ul.lista-ul--color.mb-3
-          li.mb-2
-            i.fas.fa-paper-plane(style="color:#F4B400")
-            | Conocer información específica respecto a un tema de interés.
-          li.mb-2
-            i.fas.fa-paper-plane(style="color:#F4B400")
-            | Realizar comparaciones entre variables o entre períodos.
-          li.mb-2
-            i.fas.fa-paper-plane(style="color:#F4B400")
-            | Validar si frente a un presupuesto se cumple lo esperado.
-          li.mb-2
-            i.fas.fa-paper-plane(style="color:#F4B400")
-            | Incluso medir desempeños de las personas o los procesos, lo que en cualquiera de los escenarios previos permite tomar decisiones.
-      .col-12.col-md-8.col-lg-4.order-1.order-lg-2-mb-3.mb-3(data-aos="fade-left")
+          li.d-flex.align-items-start.mb-2
+            i.fas.fa-paper-plane.me-2(style="color:#F4B400")
+            span Conocer información específica respecto a un tema de interés.
+          li.d-flex.align-items-start.mb-2
+            i.fas.fa-paper-plane.me-2(style="color:#F4B400")
+            span Realizar comparaciones entre variables o entre períodos.
+          li.d-flex.align-items-start.mb-2
+            i.fas.fa-paper-plane.me-2(style="color:#F4B400")
+            span Validar si frente a un presupuesto se cumple lo esperado.
+          li.d-flex.align-items-start.mb-2
+            i.fas.fa-paper-plane.me-2(style="color:#F4B400")
+            span Incluso medir desempeños de las personas o los procesos, lo que en cualquiera de los escenarios previos permite tomar decisiones.      .col-12.col-md-8.col-lg-4.order-1.order-lg-2-mb-3.mb-3(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema4/t4-1.png', alt='Texto que describa la imagen')
     
@@ -34,7 +33,7 @@
         p.text-bold.mb-0.etiqueta_1.text-center.p-3 Frecuencias absolutas
         figure
           img(src='@/assets/curso/tema4/t4-2.png', alt='Texto que describa la imagen')  
-        div.p-4.bgr_11
+        div.p-4.bgr_11_1
           p (Cantidad de veces que se repite un suceso al realizar un número).
       .col-12.col-md-6.col-lg-4.mb-3.mb-md-0(data-aos="fade-left")
         p.text-bold.mb-0.etiqueta_2.text-center.p-3 Frecuencias relativas
@@ -46,7 +45,7 @@
     p.mb-5 Para entender mejor las formas de representar una medición se referencia el siguiente ejemplo: 
 
     .row.mb-5.justify-content-center
-      .col-12.col-md-10(data-aos="flip-up")
+      .col-12.col-md-12.col-lg-10(data-aos="flip-up")
         .row.bgr_23.p-4
           .col-12.col-md-2.mb-3.mb-md-0
             figure.d-flex.justify-content-center
@@ -83,7 +82,7 @@
         div
           p Otro ejemplo muestra lo siguiente: la empresa Importados E.U. informa en medios que su indicador fue del 82%, mientras que la organización Mayoreo S.A.S. menciona que su índice fue del 77%, en este sentido, la empresa Importados E.U. tiene mejores indicadores de cliente.
           p.mb-0 Desde esta perspectiva de estudios de satisfacción, se tienen algunas bases, para comprender mejor los resultados, clasificando los diferentes tipos de resultados posibles en niveles. Para mejor comprensión, en la siguiente figura se detallan estos referentes, tanto desde la perspectiva de frecuencias absolutas como relativas:
-      .col-12.col-md-8.col-lg-4
+      .col-12.col-md-12.col-lg-4
         .titulo-sexto.color-acento-botones.mb-3
           h5 Figura 4
           span Asociación entre rangos y escalas de satisfacción
@@ -96,7 +95,7 @@
         img.pst(src='@/assets/componentes/hojas.svg' alt='AvatarTop')
     
     .row.justify-content-center
-      .col-12.col-md-10(data-aos="flip-up")
+      .col-12.col-md-12.col-lg-10(data-aos="flip-up")
         .cajon.bgr_21_1.p-5
           p.mb-0 La recomendación es una variable de alto interés dentro de la experiencia al cliente y en general dentro del mercadeo y las ventas, dado que cuando un cliente lo hace, significa que no solo está satisfecho con ella, sino que, además, es un cliente prescriptor; es decir, aquel  que genera una voz a voz positivo para la marca. 
     

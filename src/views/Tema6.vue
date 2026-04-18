@@ -36,7 +36,7 @@
     p.mb-5 En el proceso de posventa, se realizan dos enfoques que se pueden ver en el siguiente recurso:
 
     .row.mb-5.justify-content-center
-      .col-12.col-md-5.mb-3.mb-md-0(data-aos="fade-right")
+      .col-12.col-md-6.col-lg-5.mb-3.mb-md-0(data-aos="fade-right")
         .pst_3
           p.text-bold.mb-0.etiqueta_3.text-center.p-3 Fidelización a la marca
           figure
@@ -46,7 +46,7 @@
           div.p-4.bgr_26
             p.mb-0 Va dirigido a cómo es percibida la empresa, su nombre, su posicionamiento en el mercado, utilizando estrategias que generen esa sensación de confianza, por ejemplo, la marca Apple, es una empresa que se ha posicionado en el mercado con su valor agregado que es la calidad.
 
-      .col-12.col-md-5.pst_3(data-aos="fade-left")
+      .col-12.col-md-6.col-lg-5.pst_3(data-aos="fade-left")
         .pst_3
           p.text-bold.mb-0.etiqueta_4.text-center.p-3 Fidelización al producto 
           figure
@@ -70,7 +70,7 @@
     p.mb-5 Por lo que los constantes cambios acelerados en que los factores de tendencia en cada sector afectan a las personas y su conocimiento adecuado y anticipado de las empresas hacen que conecten con sus clientes, tanto los clientes reales como los potenciales, esto con el fin de alcanzarlos.
 
     .row.mb-5.justify-content-center
-      .col-12.col-md-10(data-aos="flip-up")
+      .col-12.col-md-12.col-lg-10(data-aos="flip-up")
         .cajon.bgr_28.p-4
           p.mb-0 Estos cambios acelerados hoy en día se pueden percibir dado a la transformación digital e influyente de los medios de comunicación, redes sociales, <em>influencers</em> y tendencias en moda, que están cambiando constantemente los patrones de consumo, lo que ha llevado a que por medio del servicio posventa no solo se logre esa conexión, sino la cercanía para poder predecir con anticipación esas tendencias cambiantes y ser asertivos dentro del sector de mercado al que pertenece cada empresa.
     

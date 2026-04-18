@@ -15,7 +15,7 @@
           img(src='@/assets/curso/tema3/t3-1.png', alt='Texto que describa la imagen')
 
     .row.mb-5.justify-content-center
-      .col-12.col-md-10
+      .col-12.col-md-12.col-lg-10
         .titulo-sexto.color-acento-contenido.mb-3
           h5 Figura 2
           span Tratamiento de datos
@@ -27,29 +27,31 @@
     p.mb-5 Algunos ejemplos comunes de información confidencial son, entre otros, los siguientes:
 
     .row.mb-5.justify-content-center
-      .col-12.col-md-10.col-lg-7.order-2.order-lg-1(data-aos="fade-right")
+      .col-12.col-md-12.col-lg-7.order-2.order-lg-1(data-aos="fade-right")
         ul.lista-ul--color
-          li.mb-2
-            i.fas.fa-paper-plane
-            | Información financiera no publicada.
-          li.mb-2
-            i.fas.fa-paper-plane
-            | Listas y datos de clientes.
-          li.mb-2
-            i.fas.fa-paper-plane
-            | Propiedad intelectual como patentes, fórmulas y nuevas tecnologías.
-          li.mb-2
-            i.fas.fa-paper-plane
-            | Datos de partes externas.
-          li.mb-2
-            i.fas.fa-paper-plane
-            span Información sobre el negocio y los productos como los precios, el <em>marketing</em> y otras estrategias.
-          li.mb-2
-            i.fas.fa-paper-plane
-            | Documentos marcados como confidenciales.
-          li.mb-2
-            i.fas.fa-paper-plane
-            | Objetivos y previsiones no publicados marcados como confidenciales.
+          li.d-flex.align-items-start.mb-2
+            i.fas.fa-paper-plane.me-2
+            span Información financiera no publicada.
+          li.d-flex.align-items-start.mb-2
+            i.fas.fa-paper-plane.me-2
+            span Listas y datos de clientes.
+          li.d-flex.align-items-start.mb-2
+            i.fas.fa-paper-plane.me-2
+            span Propiedad intelectual como patentes, fórmulas y nuevas tecnologías.
+          li.d-flex.align-items-start.mb-2
+            i.fas.fa-paper-plane.me-2
+            span Datos de partes externas.
+          li.d-flex.align-items-start.mb-2
+            i.fas.fa-paper-plane.me-2
+            span Información sobre el negocio y los productos como los precios, el 
+              em marketing 
+              | y otras estrategias.
+          li.d-flex.align-items-start.mb-2
+            i.fas.fa-paper-plane.me-2
+            span Documentos marcados como confidenciales.
+          li.d-flex.align-items-start.mb-2
+            i.fas.fa-paper-plane.me-2
+            span Objetivos y previsiones no publicados marcados como confidenciales.
       .col-12.col-md-8.col-lg-4.order-1.order-lg-2.mb-3(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema3/t3-3.png', alt='Texto que describa la imagen')
@@ -62,34 +64,33 @@
         .titulo-sexto.color-acento-botones.mb-5
           h5 Ley 1581. Elementos clave a tener en cuenta:
 
-    .row.mb-5.justify-content-center
-      .col-12.col-md-6.col-sm-6.col-xl-3.mb-4.mb-xl-0(data-aos="flip-up")
-        .tarjeta.tarjeta-slide.arriba.bgr_17(@mouseover="indicadorTarjetaSlide = false")
-          .indicador--hover(v-if="indicadorTarjetaSlide")
-          .tarjeta-slide__contenedor
-            .tarjeta-slide__contenido.p-5.p-xl-5.my-5
-              p.mb-5.text-bold Titular de la información
-              p.mb-0 “Persona natural cuyos datos personales sean objeto de tratamiento”.
-            .tarjeta-slide__img.d-none.d-md-flex(:style="{'background-image': `url(${require('@/assets/curso/tema3/t3-4.png')})`}")
-            .tarjeta-slide__img.d-flex.d-md-none(:style="{'background-image': `url(${require('@/assets/curso/tema3/t3-4-1.png')})`}")
-      .col-12.col-md-6.col-sm-6.col-xl-3.mb-4.mb-xl-0(data-aos="flip-down")
-        .tarjeta.tarjeta-slide.arriba.bgr_17(@mouseover="indicadorTarjetaSlide = false")
-          .indicador--hover(v-if="indicadorTarjetaSlide")
-          .tarjeta-slide__contenedor
-            .tarjeta-slide__contenido.p-5.p-xl-5.my-5
-              p.mb-5.text-bold Responsable del tratamiento
-              p.mb-0 “Persona natural o jurídica, pública o privada, que por sí misma o en asocio con otros, decida sobre la base de datos y/o el tratamiento de los datos”.
-            .tarjeta-slide__img.d-none.d-md-flex(:style="{'background-image': `url(${require('@/assets/curso/tema3/t3-5.png')})`}")
-            .tarjeta-slide__img.d-flex.d-md-none(:style="{'background-image': `url(${require('@/assets/curso/tema3/t3-5-1.png')})`}")
-      .col-12.col-md-6.col-sm-6.col-xl-3.mb-4.mb-xl-0(data-aos="flip-up")
-        .tarjeta.tarjeta-slide.arriba.bgr_17(@mouseover="indicadorTarjetaSlide = false")
-          .indicador--hover(v-if="indicadorTarjetaSlide")
-          .tarjeta-slide__contenedor
-            .tarjeta-slide__contenido.p-5.p-xl-5.my-5
-              p.mb-5.text-bold Encargado del tratamiento
-              p.mb-0 “Persona natural o jurídica, pública o privada, que por sí misma o en asocio con otros, realice el Tratamiento de datos personales por cuenta del responsable del tratamiento”.
-            .tarjeta-slide__img.d-none.d-md-flex(:style="{'background-image': `url(${require('@/assets/curso/tema3/t3-6.png')})`}")
-            .tarjeta-slide__img.d-flex.d-md-none(:style="{'background-image': `url(${require('@/assets/curso/tema3/t3-6-1.png')})`}")
+    .row.justify-content-center.align-items-center.mb-5
+      .col-12.col-md-6.col-lg-4.col-xl-3.mb-4
+        .crd_hover_txt.rounded-3(data-aos="flip-left")
+          .crd_hover_txt--img
+            figure
+              img(src="@/assets/curso/tema3/t3-4.png", class="img-fluid")
+          .crd_hover_txt--body.color-acento-botones.p-4
+            h5.mb-4.text-center Titular de la información
+            p.mb-2.text-center  “Persona natural cuyos datos personales sean objeto de tratamiento”.
+
+      .col-12.col-md-6.col-lg-4.col-xl-3.mb-4
+        .crd_hover_txt.rounded-3(data-aos="flip-left")
+          .crd_hover_txt--img
+            figure
+              img(src="@/assets/curso/tema3/t3-5.png", class="img-fluid")
+          .crd_hover_txt--body.color-acento-botones.p4
+            h5.mb-4.text-center Responsable del tratamiento
+            p.mb-2.text-center “Persona natural o jurídica, pública o privada, que por sí misma o en asocio con otros, decida sobre la base de datos y/o el tratamiento de los datos”.
+      
+      .col-12.col-md-6.col-lg-4.col-xl-3.mb-4
+          .crd_hover_txt.rounded-3(data-aos="flip-left")
+            .crd_hover_txt--img
+              figure
+                img(src="@/assets/curso/tema3/t3-5.png", class="img-fluid")
+            .crd_hover_txt--body.color-acento-botones.p4
+              h5.mb-4.text-center Encargado del tratamiento
+              p.mb-2.text-center “Persona natural o jurídica, pública o privada, que por sí misma o en asocio con otros, realice el Tratamiento de datos personales por cuenta del responsable del tratamiento”.
 
     .row.mb-5.justify-content-center.align-items-center
       .col-12.col-md-12.col-lg-10(data-aos="flip-up")
@@ -129,18 +130,18 @@
     p.mb-5 Aquí es de vital importancia aclarar que una gran herramienta que apoya la analítica de datos son los diferentes <em>softwares</em> especializados o herramientas ofimáticas que se encuentran en el mercado, dado que los datos que generalmente se procesan en analítica de datos o el <em>big data</em> son semiestructurados o estructurados y tienen diferentes orígenes, por lo que hoy por hoy las empresas deben hacer uso de sistemas que les permitan manejar grandes cantidades de información con el objetivo de tomar decisiones a tiempo y estar a la vanguardia en un mundo totalmente globalizado, lo anterior lleva a que estás tenga grandes beneficios, tales como:
 
     ul.lista-ul--color.mb-3
-      li.mb-2
-        i.fas.fa-paper-plane(style="color: #F4B400;")
-        | El incremento de ingresos. 
-      li.mb-2
-        i.fas.fa-paper-plane(style="color: #F4B400;")
-        | Mejoras en los procesos.
-      li.mb-2
-        i.fas.fa-paper-plane(style="color: #F4B400;")
-        | Maximización en las campañas publicitarias.
-      li.mb-2
-        i.fas.fa-paper-plane(style="color: #F4B400;")
-        | Acceso permanente a la analítica de datos para dar impulso al rendimiento o beneficio empresarial. 
+      li.d-flex.align-items-start.mb-2
+        i.fas.fa-paper-plane.me-2(style="color: #F4B400;")
+        span El incremento de ingresos. 
+      li.d-flex.align-items-start.mb-2
+        i.fas.fa-paper-plane.me-2(style="color: #F4B400;")
+        span Mejoras en los procesos.
+      li.d-flex.align-items-start.mb-2
+        i.fas.fa-paper-plane.me-2(style="color: #F4B400;")
+        span Maximización en las campañas publicitarias.
+      li.d-flex.align-items-start.mb-2
+        i.fas.fa-paper-plane.me-2(style="color: #F4B400;")
+        span Acceso permanente a la analítica de datos para dar impulso al rendimiento o beneficio empresarial.  
     br
     p.mb-5 Las metodologías o técnicas aplicadas para una base de datos demandan realizar:
 
@@ -185,12 +186,12 @@
           img(src='@/assets/curso/tema3/t3-13.png', alt='Texto que describa la imagen')
     
     .row.mb-5.justify-content-center
-      .col-12.col-md-10(data-aos="flip-up")
+      .col-12.col-md-12.col-lg-10(data-aos="flip-up")
         .cajon.bgr_21.p-5
           p.mb-0 Revisando la historia es desde 1995 cuando se comienza a tener esta excepción, no obstante, en el 2008 se crea la primera Ley de Habeas Data, la 1266, la cual tiene un carácter particular que solo aplica para la información financiera, por lo que los bancos usaban esta información para evaluar el peligro crediticio de una persona, como hábitos de pago, créditos tomados antes y sueldo o ingresos promedios.
 
     .row.mb-5.justify-content-center
-      .col-12.col-md-10.col-lg-12
+      .col-12.col-md-12.col-lg-12
         .bgr_30.p-5
           .row.justify-content-center 
             .col-12.col-md-6.col-lg-4.mb-3
@@ -208,7 +209,7 @@
     
 
     .row.mb-5.justify-content-center
-      .col-12.col-md-10
+      .col-12.col-md-12.col-lg-10
         .titulo-sexto.color-acento-contenido.mb-5
           h5 Figura 3
           span Responsabilidades manejo de datos

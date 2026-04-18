@@ -15,25 +15,27 @@
           .row  
             .col-12.col-md-4
               ul.lista-ul--color
-                li.mb-2
-                  i.fas.fa-check.colr_2
-                  | Observaciones.
-                li.mb-2
-                  i.fas.fa-check.colr_2
-                  | Discursos de personas.
+                li.d-flex.align-items-start.mb-2
+                  i.fas.fa-check.colr_2.me-2
+                  span Observaciones.
+                li.d-flex.align-items-start.mb-2
+                  i.fas.fa-check.colr_2.me-2
+                  span Discursos de personas.
+
             .col-12.col-md-4
               ul.lista-ul--color
-                li.mb-2
-                  i.fas.fa-check.colr_2
-                  | Documentos.
-                li.mb-2
-                  i.fas.fa-check.colr_2
-                  | Imágenes.
+                li.d-flex.align-items-start.mb-2
+                  i.fas.fa-check.colr_2.me-2
+                  span Documentos.
+                li.d-flex.align-items-start.mb-2
+                  i.fas.fa-check.colr_2.me-2
+                  span Imágenes.
+
             .col-12.col-md-4
               ul.lista-ul--color
-                li.mb-2
-                  i.fas.fa-check.colr_2
-                  | Organizaciones, etc.
+                li.d-flex.align-items-start.mb-2
+                  i.fas.fa-check.colr_2.me-2
+                  span Organizaciones, etc.
       .col-12.col-md-8.col-lg-4.order-1.order-lg-2.mb-3(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema1/t1-1.png', alt='Texto que describa la imagen')
@@ -54,15 +56,15 @@
               img.pst_1(src='@/assets/curso/tema1/t1-2.svg' alt='AvatarTop')
             .bgr_2.p-4
               ul.lista-ul--color
-                li.mb-2
-                  i.fas.fa-paper-plane.colr_3
-                  | Oral vs. documental.
-                li.mb-2
-                  i.fas.fa-paper-plane.colr_3
-                  | Textual vs. audiovisual / multimedia.
-                li.mb-2
-                  i.fas.fa-paper-plane.colr_3
-                  | Papel vs. electrónico.
+                li.d-flex.align-items-start.mb-2
+                  i.fas.fa-paper-plane.colr_3.me-2
+                  span Oral vs. documental.
+                li.d-flex.align-items-start.mb-2
+                  i.fas.fa-paper-plane.colr_3.me-2
+                  span Textual vs. audiovisual / multimedia.
+                li.d-flex.align-items-start.mb-2
+                  i.fas.fa-paper-plane.colr_3.me-2
+                  span Papel vs. electrónico.
       .col-12.col-md-4.mb-3.mb-md-0(data-aos="flip-down")
         .row  
           .col-12
@@ -71,18 +73,18 @@
               img.pst_1(src='@/assets/curso/tema1/t1-3.svg' alt='AvatarTop')
             .bgr_4_1.p-4
               ul.lista-ul--color
-                li.mb-2
-                  i.fas.fa-paper-plane.colr_3
-                  | Personal vs. impersonal.
-                li.mb-2
-                  i.fas.fa-paper-plane.colr_3
-                  | Formal vs. informal.
-                li.mb-2
-                  i.fas.fa-paper-plane.colr_3
-                  | Publicado / abierto vs. no publicado.
-                li.mb-2
-                  i.fas.fa-paper-plane.colr_3
-                  | Confidencial / secreto.
+                li.d-flex.align-items-start.mb-2
+                  i.fas.fa-paper-plane.colr_3.me-2
+                  span Personal vs. impersonal.
+                li.d-flex.align-items-start.mb-2
+                  i.fas.fa-paper-plane.colr_3.me-2
+                  span Formal vs. informal.
+                li.d-flex.align-items-start.mb-2
+                  i.fas.fa-paper-plane.colr_3.me-2
+                  span Publicado / abierto vs. no publicado.
+                li.d-flex.align-items-start.mb-2
+                  i.fas.fa-paper-plane.colr_3.me-2
+                  span Confidencial / secreto.
       .col-12.col-md-4.mb-3.mb-md-0(data-aos="flip-up")
         .row  
           .col-12
@@ -91,9 +93,10 @@
               img.pst_1(src='@/assets/curso/tema1/t1-4.svg' alt='AvatarTop')
             .bgr_6.p-4
               ul.lista-ul--color
-                li.mb-2
-                  i.fas.fa-paper-plane.colr_3
-                  | Interna vs. externa.
+                li.d-flex.align-items-start.mb-2
+                  i.fas.fa-paper-plane.colr_3.me-2
+                  span Interna vs. externa.
+            
 
     p.mb-5 Por otro lado, también es clave aclarar que en investigación la información tiene varias fuentes y del origen de esta depende la calidad de la misma; por lo que a continuación, se describen las principales fuentes con sus características.
 
@@ -301,24 +304,25 @@
           p.mb-0.text-small Universidad Nacional de Colombia, primera en generar conocimiento en el país.
         div.p-4.bgr_11
           ul.lista-ul--color
-            li.mb-2
-              i.fas.fa-angle-right.colr_3
-              | Organizaciones de investigación.
-            li.mb-2
-              i.fas.fa-angle-right.colr_3
-              | Sociedades.
-            li.mb-2
-              i.fas.fa-angle-right.colr_3
-              | Industrias.
-            li.mb-2
-              i.fas.fa-angle-right.colr_3
-              | Departamentos gubernamentales.
-            li.mb-2
-              i.fas.fa-angle-right.colr_3
-              | Universidades.
-            li.mb-2
-              i.fas.fa-angle-right.colr_3
-              | Consultores.
+            li.d-flex.align-items-start.mb-2
+              i.fas.fa-angle-right.colr_3.me-2
+              span Organizaciones de investigación.
+            li.d-flex.align-items-start.mb-2
+              i.fas.fa-angle-right.colr_3.me-2
+              span Sociedades.
+            li.d-flex.align-items-start.mb-2
+              i.fas.fa-angle-right.colr_3.me-2
+              span Industrias.
+            li.d-flex.align-items-start.mb-2
+              i.fas.fa-angle-right.colr_3.me-2
+              span Departamentos gubernamentales.
+            li.d-flex.align-items-start.mb-2
+              i.fas.fa-angle-right.colr_3.me-2
+              span Universidades.
+            li.d-flex.align-items-start.mb-2
+              i.fas.fa-angle-right.colr_3.me-2
+              span Consultores.
+
       .col-12.col-md-6.col-lg-5(data-aos="fade-left")
         p.text-bold.mb-0.etiqueta_2.text-center.p-3 Fuentes informales 
         figure
@@ -327,15 +331,15 @@
           p.mb-0.text-small Aprendizaje a lo largo de la vida, actitud del profesional del siglo XXI.
         div.p-4.bgr_12
           ul.lista-ul--color
-            li.mb-2
-              i.fas.fa-angle-right.colr_3
-              | Conversación con las universidades.
-            li.mb-2
-              i.fas.fa-angle-right.colr_3
-              | Visitantes.
-            li.mb-2
-              i.fas.fa-angle-right.colr_3
-              | Asistencia a reuniones profesionales.
+            li.d-flex.align-items-start.mb-2
+              i.fas.fa-angle-right.colr_3.me-2
+              span Conversación con las universidades.
+            li.d-flex.align-items-start.mb-2
+              i.fas.fa-angle-right.colr_3.me-2
+              span Visitantes.
+            li.d-flex.align-items-start.mb-2
+              i.fas.fa-angle-right.colr_3.me-2
+              span Asistencia a reuniones profesionales.
             
 
     
