@@ -22,7 +22,8 @@
             span Validar si frente a un presupuesto se cumple lo esperado.
           li.d-flex.align-items-start.mb-2
             i.fas.fa-paper-plane.me-2(style="color:#F4B400")
-            span Incluso medir desempeños de las personas o los procesos, lo que en cualquiera de los escenarios previos permite tomar decisiones.      .col-12.col-md-8.col-lg-4.order-1.order-lg-2-mb-3.mb-3(data-aos="fade-left")
+            span Incluso medir desempeños de las personas o los procesos, lo que en cualquiera de los escenarios previos permite tomar decisiones.      
+      .col-12.col-md-8.col-lg-4.order-1.order-lg-2-mb-3.mb-3(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema4/t4-1.png', alt='Texto que describa la imagen')
     

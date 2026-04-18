@@ -86,9 +86,17 @@
           col-md-12.col-lg-4.p-4
             h4.mb-5 Solicitudes posventa  
             p Se refieren a los requerimientos de los clientes después de realizada la compra en la empresa, entre ellos se destacan: 
-            p.mb-0 •	Devoluciones.
-            p.mb-0 • Reclamos de facturación.
-            p • Aclaraciones de entregas vs. solicitud de compra, entre otras.
+            ul.lista-ul--color.mb-3
+              li.d-flex.align-items-start.mb-2
+                i.fas.fa-circle.me-2(style="font-size: 10px; color:#000000")
+                span Devoluciones.
+              li.d-flex.align-items-start.mb-2
+                i.fas.fa-circle.me-2(style="font-size: 10px; color:#000000")
+                span Reclamos de facturación.
+              li.d-flex.align-items-start.mb-2
+                i.fas.fa-circle.me-2(style="font-size: 10px; color:#000000")
+                span Aclaraciones de entregas vs. solicitud de compra, entre otras.
+         
           .col-md-8.col-lg-8.p-4
             figure
               img(src='@/assets/curso/tema5/t5-9.png', alt='Texto que describa la imagen')
