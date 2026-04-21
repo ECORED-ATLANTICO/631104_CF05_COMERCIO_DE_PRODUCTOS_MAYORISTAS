@@ -47,8 +47,8 @@
     
     p.mb-5 Las principales formas que se han propuesto para clasificar las fuentes de información en investigación se indican a continuación:
 
-    .row.mb-5
-      .col-12.col-md-4.mb-3.mb-md-0(data-aos="flip-up")
+    .row.justify-content-md-center.mb-5
+      .col-12.col-md-6.col-lg-4.mb-3(data-aos="flip-up")
         .row  
           .col-12
             .bgr_1.pt-5.pb-3.position-relative
@@ -65,8 +65,8 @@
                 li.d-flex.align-items-start.mb-2
                   i.fas.fa-paper-plane.colr_3.me-2
                   span Papel vs. electrónico.
-      .col-12.col-md-4.mb-3.mb-md-0(data-aos="flip-down")
-        .row  
+      .col-12.col-md-6.col-lg-4.mb-3(data-aos="flip-down")
+        .row
           .col-12
             .bgr_3.pt-5.pb-3.position-relative
               p.mb-0.text-bold.text-center Estado
@@ -85,7 +85,7 @@
                 li.d-flex.align-items-start.mb-2
                   i.fas.fa-paper-plane.colr_3.me-2
                   span Confidencial / secreto.
-      .col-12.col-md-4.mb-3.mb-md-0(data-aos="flip-up")
+      .col-12.col-md-6.col-lg-4.mb-3(data-aos="flip-up")
         .row  
           .col-12
             .bgr_5.pt-5.pb-3.position-relative

@@ -48,14 +48,14 @@
 
     .tarjeta.color-secundario.p-3.mb-5(data-aos="flip-up")
       .row.justify-content-around.align-items-center
-        .col-3.col-sm-2.col-lg-1
+        .col-4.col-sm-2.col-lg-1
           img(src="@/assets/curso/tema7/t7-6.svg")
-        .col
+        .col-12.col-sm-10.col-lg-11
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
               h3.mb-1 Técnicas para la resolución de conflictos
               p.text-small Como parte de su aprendizaje autónomo le invito a ver el video Técnicas para resolución de conflictos y así complementar la temática vista sobre la resolución de conflictos:  
-            .col-sm-auto
+            .col-sm-auto.justify-content-center.d-flex
               a.boton.color-acento-botones.texto-blanco(href="https://www.youtube.com/watch?v=B9HPVnE-xMk&ab_channel=WendyEspa%C3%B1a " target="_blank")
                 span ver más
                 i.fas.fa-file-download

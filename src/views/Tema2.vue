@@ -37,48 +37,48 @@
       .col-12.col-md-12.col-lg-10
         PasosA.color-acento-botones.mb-5.colr_5(tipo="n")
           .row
-            .col-md-3.col-lg-2.mb-3(data-aos="fade-right")
+            .col-md-6.col-lg-2.mb-3(data-aos="fade-right")
               figure
-                img.img80(src='@/assets/curso/tema2/t2-4.svg', alt='Texto que describa la imagen')
-            .col-md-9.col-lg-10(data-aos="fade-left")
+                img(src='@/assets/curso/tema2/t2-4.svg', alt='Texto que describa la imagen')
+            .col-md-12.col-lg-10(data-aos="fade-left")
               h3 Recogida
               p La recogida de datos brutos es el primer paso del ciclo de procesamiento. El tipo de datos brutos recogidos tiene un gran impacto en el resultado obtenido. Por lo tanto, estos deben recogerse de fuentes definidas y precisas para que los resultados posteriores sean válidos y utilizables. 
               p.mb-0 Los datos brutos pueden incluir cifras monetarias, cookies de sitios web, estados de pérdidas y ganancias de una empresa, comportamiento de los usuarios, etc.
           .row
-            .col-md-9.col-lg-10.order-2.order-md-1(data-aos="fade-right")
+            .col-md-12.col-lg-10.order-2.order-lg-1(data-aos="fade-right")
               h3 Preparación
               p.mb-0 La preparación o limpieza de los datos es el proceso de clasificación y filtrado que se les hace para eliminar los datos innecesarios e inexactos. Los datos brutos se comprueban para detectar errores, duplicaciones, cálculos erróneos o datos que faltan, y se transforman en una forma adecuada para su posterior análisis y procesamiento. Esto se hace para garantizar que solo se introducen en la unidad de procesamiento los datos de mayor calidad.
-            .col-md-3.col-lg-2.mb-4.mb-md-0.order-1.order-md-2(data-aos="fade-left")
+            .col-md-6.col-lg-2.mb-4.mb-md-0.order-1.order-lg-2(data-aos="fade-left")
               figure
-                img.img80(src='@/assets/curso/tema2/t2-5.svg', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/tema2/t2-5.svg', alt='Texto que describa la imagen')
           .row
-            .col-md-3.col-lg-2.mb-3(data-aos="fade-right")
+            .col-md-6.col-lg-2.mb-3(data-aos="fade-right")
               figure
-                img.img80(src='@/assets/curso/tema2/t2-6.svg', alt='Texto que describa la imagen')
-            .col-md-9.col-lg-10(data-aos="fade-left")
+                img(src='@/assets/curso/tema2/t2-6.svg', alt='Texto que describa la imagen')
+            .col-md-12.col-lg-10(data-aos="fade-left")
               h3 Entrada
               p.mb-0 En este paso los datos brutos se convierten en un formato legible por la máquina y se introducen en la unidad de procesamiento. Puede ser en forma de entrada de datos a través de un teclado, un escáner o cualquier otra fuente de entrada. 
           .row
-            .col-md-9.col-lg-10.order-2.order-md-1(data-aos="fade-right")
+            .col-md-12.col-lg-10.order-2.order-lg-1(data-aos="fade-right")
               h3 Procesamiento de datos
               p.mb-0 En este paso, los datos brutos se someten a varios métodos de procesamiento de datos utilizando algoritmos de aprendizaje automático e inteligencia artificial para generar un resultado deseable. Este paso puede variar ligeramente de un proceso a otro en función de la fuente de datos que se procese (lagos de datos, bases de datos en línea, dispositivos conectados, etc.) y del uso previsto del resultado.
-            .col-md-3.col-lg-2.mb-3.order-1.order-md-2(data-aos="fade-left")
+            .col-md-6.col-lg-2.mb-3.order-1.order-lg-2(data-aos="fade-left")
               figure
-                img.img80(src='@/assets/curso/tema2/t2-7.svg', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/tema2/t2-7.svg', alt='Texto que describa la imagen')
           .row
-            .col-md-3.col-lg-2.mb-3(data-aos="fade-right")
+            .col-md-6.col-lg-2.mb-3(data-aos="fade-right")
               figure
-                img.img80(src='@/assets/curso/tema2/t2-8.svg', alt='Texto que describa la imagen')
-            .col-md-9.col-lg-10(data-aos="fade-left")
+                img(src='@/assets/curso/tema2/t2-8.svg', alt='Texto que describa la imagen')
+            .col-md-12.col-lg-10(data-aos="fade-left")
               h3 Salida
               p.mb-0 Finalmente los datos se transmiten y se muestran al usuario en una forma legible como gráficos, tablas, archivos vectoriales, audio, vídeo, documentos, etc. Esta salida puede ser almacenada y procesada en el siguiente ciclo de procesamiento de datos. 
           .row
-            .col-md-9.col-lg-10.order-2.order-md-1(data-aos="fade-right")
+            .col-md-12.col-lg-10.order-2.order-lg-1(data-aos="fade-right")
               h3 Almacenamiento
               p.mb-0 El último paso del ciclo de procesamiento de datos es el almacenamiento, en el que se guardan los datos y metadatos para su posterior uso. Esto permite un rápido acceso y recuperación de la información siempre que se necesite, y utilizarla como entrada en el siguiente ciclo de procesamiento de datos directamente.
-            .col-md-3.col-lg-2.mb-3.order-1.order-md-2(data-aos="fade-left")
+            .col-md-6.col-lg-2.mb-3.order-1.order-lg-2(data-aos="fade-left")
               figure
-                img.img80(src='@/assets/curso/tema2/t2-9.svg', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/tema2/t2-9.svg', alt='Texto que describa la imagen')
     
     p.mb-5 Tenga en cuenta que se distinguen tres métodos principales de procesamiento de datos que debe conocer para poder usarlos de forma adecuada, por lo que le invito a revisar el recurso que a continuación se muestra y los explica:
 
