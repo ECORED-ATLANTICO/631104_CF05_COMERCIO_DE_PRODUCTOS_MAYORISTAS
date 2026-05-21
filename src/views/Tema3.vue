@@ -189,7 +189,7 @@
     .row.mb-5.justify-content-center
       .col-12.col-md-12.col-lg-10(data-aos="flip-up")
         .cajon.bgr_21.p-5
-          p.mb-0 Revisando la historia es desde 1995 cuando se comienza a tener esta excepción, no obstante, en el 2008 se crea la primera Ley de Habeas Data, la 1266, la cual tiene un carácter particular que solo aplica para la información financiera, por lo que los bancos usaban esta información para evaluar el peligro crediticio de una persona, como hábitos de pago, créditos tomados antes y sueldo o ingresos promedios.
+          p.mb-0 Revisando la historia es desde 1995 cuando se comienza a tener esta excepción, no obstante, en el 2008 se crea la primera Ley de <em>Habeas Data</em>, la 1266, la cual tiene un carácter particular que solo aplica para la información financiera, por lo que los bancos usaban esta información para evaluar el peligro crediticio de una persona, como hábitos de pago, créditos tomados antes y sueldo o ingresos promedios.
 
     .row.mb-5.justify-content-center
       .col-12.col-md-12.col-lg-12
@@ -199,14 +199,14 @@
               figure
                 img(src='@/assets/curso/tema3/t3-7.svg', alt='Texto que describa la imagen')
             .col-12.col-md-12.col-lg-8
-              p La Ley 1266 de 2008, también conocida como Ley de Habeas Data, se aplica a todos los datos personales financieros, crediticios, comerciales y de servicios registrados en un banco de datos. En este sentido, la aplicación de la Ley 1266 de 2008 está encaminada a regular el uso de esa información y por tanto otro tipo de datos (por ejemplo: aquellos mantenidos en un ámbito exclusivamente personal o doméstico o lo que se incluyen en una historia clínica) se encuentran excluidos de la aplicación de esta norma. Para su consulta puede ingresar al siguiente enlace: 
+              p La Ley 1266 de 2008, también conocida como Ley de <em>Habeas Data</em>, se aplica a todos los datos personales financieros, crediticios, comerciales y de servicios registrados en un banco de datos. En este sentido, la aplicación de la Ley 1266 de 2008 está encaminada a regular el uso de esa información y por tanto otro tipo de datos (por ejemplo: aquellos mantenidos en un ámbito exclusivamente personal o doméstico o lo que se incluyen en una historia clínica) se encuentran excluidos de la aplicación de esta norma. Para su consulta puede ingresar al siguiente enlace: 
               a.anexo.mb-4.mb-lg-0(href="https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=34488" target="_blank")
                 .anexo__icono
                   img(src="@/assets/template/icono-link.svg")
                 .anexo__texto
-                  p <b>Enlace web.</b> La Ley 1266 de 2008, también conocida como Ley de Habeas Data.
+                  p <b>Enlace web.</b> La Ley 1266 de 2008, también conocida como Ley de <em>Habeas Data</em>.
     
-    p.mb-5 Por su lado, la ley más vigente del derecho de Habeas Data ha sido emitida en el 2012. La ley 1581 es de carácter general y se aplica en todos los espacios de recolección de datos de una persona y que, por lo tanto, no son financieros ni crediticios. Son usados por entidades de naturaleza pública o privada. En esta ley se resume todo el funcionamiento de la información de una persona; por ello, en la siguiente figura se mencionan los elementos que se tienen en cuenta de manera general:
+    p.mb-5 Por su lado, la ley más vigente del derecho de <em>Habeas Data</em> ha sido emitida en el 2012. La ley 1581 es de carácter general y se aplica en todos los espacios de recolección de datos de una persona y que, por lo tanto, no son financieros ni crediticios. Son usados por entidades de naturaleza pública o privada. En esta ley se resume todo el funcionamiento de la información de una persona; por ello, en la siguiente figura se mencionan los elementos que se tienen en cuenta de manera general:
     
 
     .row.mb-5.justify-content-center
@@ -215,8 +215,8 @@
           h5 Figura 3
           span Responsabilidades manejo de datos
         figure.mb-3
-          img(src='@/assets/curso/tema3/t3-14.svg', class="img-fluid d-none d-lg-block", alt='Texto que describa la imagen')
-          img(src='@/assets/curso/tema3/t3-14-m.svg', class="img-fluid d-block d-lg-none", alt='Texto que describa la imagen')
+          img(src='@/assets/curso/tema3/t3-14.svg', class="img-fluid d-none d-lg-block", alt='La figura 3 muestra diagrama sobre responsabilidades manejo de datos donde describe: intervinientes en el derecho: pasivos (responsables del tratamiento de datos, usuarios, encargado del tratamiento), activos (titular del dato). Desde “intervinientes en el derecho” se deriva “Habeas Data”, relacionado con:  titular del derecho (personas físicas), gerente del derecho (Superintendencia de Industria y Comercio). ')
+          img(src='@/assets/curso/tema3/t3-14-m.svg', class="img-fluid d-block d-lg-none", alt='La figura 3 muestra diagrama sobre responsabilidades manejo de datos donde describe: intervinientes en el derecho: pasivos (responsables del tratamiento de datos, usuarios, encargado del tratamiento), activos (titular del dato). Desde “intervinientes en el derecho” se deriva “Habeas Data”, relacionado con:  titular del derecho (personas físicas), gerente del derecho (Superintendencia de Industria y Comercio). ')
         figcaption(style="font-weight: normal") Nota. SENA, (2026).
 
     p.mb-5 Por otro lado, ninguna entidad puede hacer uso de esta información sin el permiso y autorización del dueño. La empresa o persona que sin la debida autorización realice uso de datos individuales recibirá una sanción y multa. Es por ello, que continuamente piden una aceptación una vez que se firma un contrato o se hace una compra.

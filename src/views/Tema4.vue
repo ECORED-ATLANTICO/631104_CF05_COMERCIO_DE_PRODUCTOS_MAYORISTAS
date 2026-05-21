@@ -9,7 +9,7 @@
     
     .row.mb-5.justify-content-center
       .col-12.col-md-12.col-lg-6.order-2.order-lg-1.mb-3(data-aos="fade-right")
-        p La palabra medición viene del verbo medir que, a su vez viene de la palabra latina <em>metriri</em> que significa “comparar un resultado o cantidad con una unidad de medida previa”, por lo que son muy importantes, ya que posibilitan conocer cómo están funcionando hechos o fenómenos de interés. Las mediciones son relevantes específicamente en una empresa porque permiten: 
+        p La palabra medición viene del verbo medir que, a su vez viene de la palabra latina <em>metiri</em> que significa “comparar un resultado o cantidad con una unidad de medida previa”, por lo que son muy importantes, ya que posibilitan conocer cómo están funcionando hechos o fenómenos de interés. Las mediciones son relevantes específicamente en una empresa porque permiten: 
         ul.lista-ul--color.mb-3
           li.d-flex.align-items-start.mb-2
             i.fas.fa-paper-plane.me-2(style="color:#F4B400")
@@ -88,7 +88,7 @@
           h5 Figura 4
           span Asociación entre rangos y escalas de satisfacción
         figure.mb-3
-          img(src='@/assets/curso/tema4/t4-6.svg', alt='Texto que describa la imagen')   
+          img(src='@/assets/curso/tema4/t4-6.svg', alt='Tabla de niveles de satisfacción con dos columnas: “rango” y “satisfacción”. La satisfacción alta corresponde a valores mayores o iguales al 80 % y superiores a 4.0; la satisfacción media corresponde a rangos entre 70.0 % y 79.9 %, y entre 3.5 y 3.99; la satisfacción baja corresponde a valores menores o iguales a 69.9 % y menores a 3.49.')   
         figcaption(style="font-weight: normal") Nota. SENA, (2026).
 
     .row.mb-5(data-aos="fade-right")

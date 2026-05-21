@@ -9,7 +9,7 @@
     .row.justify-content-center
       .col-lg-10.mb-5
         figure
-          img(src="@/assets/curso/sintesis.svg", alt="alt")
+          img(src='@/assets/curso/sintesis.svg', alt='Este mapa conceptual, titulado "Manejo de información postventa", detalla el proceso de gestión de datos a través de siete ejes fundamentales: la clasificación de fuentes de información (primarias, secundarias, terciarias y no documentales); el procesamiento de datos, que abarca parámetros de calidad y técnicas de recolección como encuestas y entrevistas; el cumplimiento de la normativa y confidencialidad bajo la Ley 1581 de 2012; el uso de software para mediciones; la gestión de solicitudes (PQR); la estrategia de posventa; y la aplicación de técnicas de resolución de conflictos orientadas a la satisfacción del cliente.')
       .col-auto
         a.anexo.mb-4(:href="obtenerLink('/downloads/Síntesis.pdf')" target="_blank")
           .anexo__icono

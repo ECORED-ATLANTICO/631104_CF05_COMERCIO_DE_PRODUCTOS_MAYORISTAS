@@ -54,7 +54,7 @@
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
               h3.mb-1 Técnicas para la resolución de conflictos
-              p Como parte de su aprendizaje autónomo le invito a ver el video Técnicas para resolución de conflictos y así complementar la temática vista sobre la resolución de conflictos:  
+              p Como parte de su aprendizaje autónomo le invito a ver el video Técnicas para resolución de conflictos y así complementar la temática abordada sobre la resolución de conflictos:  
             .col-sm-auto.justify-content-center.d-flex
               a.boton.color-acento-botones.texto-blanco(href="https://www.youtube.com/watch?v=B9HPVnE-xMk&ab_channel=WendyEspa%C3%B1a " target="_blank")
                 span ver más
@@ -143,7 +143,7 @@
             img(src='@/assets/curso/tema7/t7-14.png', alt='Texto que describa la imagen')
       .row(titulo="Información fluida").p-4.justify-content-center
         .col-md-12.col-lg-8.mb-4.mb-md-0.align-items-center.p-4
-          p Haga que los canales de comunicación sean efectivos, evite que los clientes deben llamar varias veces para que les solucionen sus inquietudes, tenga canales como: WhatsApp, redes sociales o chats en línea.
+          p Haga que los canales de comunicación sean efectivos, evite que los clientes deben llamar varias veces para que les solucionen sus inquietudes, tenga canales como: WhatsApp, redes sociales o <em>chats</em> en línea.
           p.mb-0 Mantenga bien informado al cliente, si surgen inconvenientes como mantenimiento de plataformas o suspensión del servicio retroalimente al cliente con tiempo para que él se prepare, la solución es que el cliente lo sepa de manera oportuna.
         .col-md-6.col-lg-4
           figure
@@ -161,7 +161,8 @@
     #t_7_2.titulo-segundo.color-acento-botones(data-aos="fade-right")
       .h2 7.2 Mediciones y tratamiento 
     
-    p.mb-5 Para ofrecer un buen servicio posventa, es necesario crear estrategias de control y evaluación con el fin de medir y hacer seguimiento continuo a su aplicación, ello permite a la empresa identificar la eficacia de cada una de ellas con el ánimo de decidir sí es necesario hacer planes de mejora o si es necesario reforzarlas. <b>Para medir y evaluar el servicio posventa es necesario contar con los siguientes indicadores:</b>
+    p.mb-0 Para ofrecer un buen servicio posventa, es necesario crear estrategias de control y evaluación con el fin de medir y hacer seguimiento continuo a su aplicación, ello permite a la empresa identificar la eficacia de cada una de ellas con el ánimo de decidir sí es necesario hacer planes de mejora o si es necesario reforzarlas. 
+    p.mb-5 Para medir y evaluar el servicio posventa es necesario contar con los siguientes indicadores:
 
     .row.mb-5.justify-content-evenly
       .col-12.col-md-6.col-lg-3.mb-3

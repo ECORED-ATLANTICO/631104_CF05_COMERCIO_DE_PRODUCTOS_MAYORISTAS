@@ -90,7 +90,7 @@
             figure
               img.img80(src='@/assets/curso/tema6/t6-8.svg', alt='Texto que describa la imagen')
         h2.text-center Psicológicos  
-        p Enfocados en la parte motivacional del cliente y en esa sensación que las empresas deben transmitir de que el cliente les importa.
+        p Enfocados en la parte motivacional del cliente y en esa sensación que las empresas deben transmitir que el cliente les importa .
       .col-md-6.col-lg-6.col-xl-3.tarjeta.bgr_29_1.p-5.mb-3
         .row.justify-content-center.mb-4
           .col-6
@@ -256,7 +256,7 @@
             p.mb-0 Una garantía mal diseñada conlleva a grandes pérdidas, por ello se requiere la creación de normas, tanto para la empresa como para los clientes, muy claras, con periodos definidos, con soportes bien descritos y establecido claramente el uso de servicios adicionales como: supervisión o visitas técnicas, entre otros factores, porque cada servicio traducido financieramente representa un costo o un gasto para la empresa. 
     
     p Visto de otra manera, la lealtad de los clientes con la marca va directamente relacionada a los alcances que tengan las garantías que presenten, si la garantía es precaria, los productos sustitutos o un producto igual, pero de otra marca ganarán parte del sector de mercado al cual pertenecen.
-    p.mb-5 En la construcción de estas garantías se requiere un análisis financiero, de viabilidad y el análisis de las políticas a las cuales la empresa está obligada a cumplir de acuerdo con las leyes de protección al consumidor, entre otros factores internos como: los materiales de construcción para determinar el alcance y la resistencia de sus productos. Es por ello que se ven en internet las pruebas de resistencia, como por ejemplo: las marcas de vehículos que deben pasar sus automóviles por estrictas pruebas de choque, seguridad y confiabilidad en cuanto a carrocería, frenos y asistencias tecnológicas en sus componentes como en los frenos y bolsas de aire.
+    p.mb-5 En la construcción de estas garantías se requiere un análisis financiero, de viabilidad y el análisis de las políticas a las cuales la empresa está obligada a cumplir de acuerdo con las leyes de protección al consumidor, entre otros factores internos como: los materiales de construcción para determinar el alcance y la resistencia de sus productos. Es por ello que se ven en internet las pruebas de resistencia, como, por ejemplo: las marcas de vehículos que deben pasar sus automóviles por estrictas pruebas de choque, seguridad y confiabilidad en cuanto a carrocería, frenos y asistencias tecnológicas en sus componentes como en los frenos y bolsas de aire.
 
     .row.mb-5.justify-content-center
       .col-12.col-md-12.col-lg-10(data-aos="flip-up")
@@ -271,7 +271,7 @@
               figure
                 img(src='@/assets/curso/tema6/t6-29.svg', alt='Texto que describa la imagen')
             .col-12.col-md-12.col-lg-7
-              p En el siguiente video podrá contemplar un ejemplo de cómo una empresa de gran impacto en el mercado a nivel mundial pone en práctica, todos y cada uno de los elementos mencionados en este componente formativo para además de hacer una gran venta, seguir en contacto con sus clientes mediante elementos claves o principios de posventa. 
+              p En el siguiente video se identifica un ejemplo de cómo una empresa de gran impacto en el mercado a nivel mundial pone en práctica, todos y cada uno de los elementos mencionados en este componente formativo para además de hacer una gran venta, seguir en contacto con sus clientes mediante elementos claves o principios de posventa. 
               a.anexo.mb-4.mb-lg-0(href="https://www.youtube.com/watch?v=yqyttSMc7ac" target="_blank")
                 .anexo__icono
                   img(src="@/assets/template/icono-link.svg")

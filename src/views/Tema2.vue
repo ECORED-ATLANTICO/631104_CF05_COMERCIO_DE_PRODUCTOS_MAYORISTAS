@@ -168,10 +168,7 @@
       .row.justify-content-center(titulo="Observación").p-4
         .col-md-12.col-lg-8.mb-3.align-items-center.p-4
           p La simple observación es útil y factible cuando se trata de conocer hechos o situaciones que de alguna manera tienen cierto carácter público, o que al menos no pertenecen estrictamente a la esfera del comportamiento privado de los individuos. 
-          p Es viable mediante este procedimiento conocer los hábitos de compra, el  comportamiento político o los hábitos de las personas observadas como son: 
-          p.mb-0.text-bold Hábitos de vestimenta,
-          p.mb-0.text-bold Asistencia a lugares públicos y
-          p.text-bold Comportamiento social, etc. 
+          p Es viable mediante este procedimiento conocer los hábitos de compra, el  comportamiento político o los hábitos de las personas observadas como son: hábitos de vestimenta, asistencia a lugares públicos, comportamiento social, etc. 
           p.mb-0 Los datos obtenidos apuntan casi siempre a los aspectos más superficiales o visibles de la realidad social, aunque  esto no significa que carezcan de importancia.
         .col-md-6.col-lg-4
           figure
@@ -238,7 +235,7 @@
             p.mb-0.text-bold Videocámara
             p Se utiliza para recoger datos mediante entrevistas. Es una combinación de grabadora de audio y cámara de vídeo. Los datos que proporciona son de naturaleza cualitativa y permiten a los encuestados responder exhaustivamente a las preguntas que se les formulan.
 
-            p Si necesitas recopilar información sensible durante una entrevista, una videocámara podría no servirte, ya que tendrías que mantener la privacidad del sujeto.
+            p Si necesita recopilar información sensible durante una entrevista, una videocámara podría no servirle, ya que tendría que mantener la privacidad del sujeto. 
       .py-4.py-md-5(titulo="La observación")
         .row.justify-content-center
           .col-md-6.col-lg-4.mb-3
@@ -276,11 +273,7 @@
             p La recopilación y el uso de los datos contenidos en los artículos de los sitios web es también otra herramienta para la recogida de datos, es más rápida y menos costosa pero tiene sesgos y los posibles problemas de seguridad/confidencialidad.
    
     p.mb-5 El método de investigación combinada implica dos o más métodos de recogida de datos, por ejemplo: entrevistas y cuestionarios o una combinación de entrevistas telefónicas semiestructuradas y grupos de discusión. Las principales herramientas para la investigación combinada se pueden revisar a continuación:
-
-    .row.mb-3(data-aos="fade-right")
-      .col-10.col-lg-4.position-relative
-        h3.p-3.bgr.text-center Investigación combinada Tipos
-        img.pst(src='@/assets/componentes/hojas.svg' alt='AvatarTop')
+    
     
     .tarjeta.bgr_15.p-4.mb-5(data-aos="flip-up")
       SlyderA(tipo="b")

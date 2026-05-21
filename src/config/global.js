@@ -287,6 +287,11 @@ export default {
   referencias: [
     {
       referencia:
+        'Ministerio de Tecnologías de la Información y las Comunicaciones. (2013). <em>Decreto 1377 de 2013. Por el cual se reglamenta parcialmente la Ley 1581 de 2012.</em>',
+      link: '',
+    },
+    {
+      referencia:
         'Portafolio. (s. f.).<em> Servicio posventa, tan importante como las características de bienes o servicios ofrecidos al cliente.</em>',
       link:
         'https://www.portafolio.co/economia/finanzas/servicio-posventa-importante-caracteristicas-bienes-servicios-ofrecidos-cliente-243638',
@@ -296,6 +301,11 @@ export default {
         'Samsing, C. (2021).<em> Principales indicadores de servicio posventa.<em>',
       link:
         'https://blog.nubox.com/empresas/indicadores-de-servicio-post-venta',
+    },
+    {
+      referencia:
+        'UIAF. (2008). Ley Estatutaria 1266 de 2008.<em> Por la cual se dictan las disposiciones generales de Habeas Data.</em>',
+      link: '',
     },
   ],
   creditos: [
