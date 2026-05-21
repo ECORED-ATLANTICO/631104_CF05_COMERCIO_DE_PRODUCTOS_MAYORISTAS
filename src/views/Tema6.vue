@@ -139,7 +139,7 @@
           .col-12.col-lg-6
             h4 Mantener contacto con los clientes
             p Es de vital importancia que la comunicación empresa-cliente no se corte, por ello es necesario sostener una conversación con los clientes activa, por medio de estrategias como <em>e-mail marketing</em> y CRM. 
-            p.mb-3 En esta técnica vale la pena resaltar que estos espacios de comunicación deben de ser aprovechados, ya sea con encuestas de satisfacción o desempeño, tips de uso, cuidado, noticias de nuevos lanzamientos, o sencillamente de agradecimiento por su lealtad con la marca o compra de productos. Como factor clave, la constancia en esta relación.
+            p.mb-3 En esta técnica vale la pena resaltar que estos espacios de comunicación deben de ser aprovechados, ya sea con encuestas de satisfacción o desempeño, <em>tips</em> de uso, cuidado, noticias de nuevos lanzamientos, o sencillamente de agradecimiento por su lealtad con la marca o compra de productos. Como factor clave, la constancia en esta relación.
           .col-12.col-lg-6
             figure
               img(src='@/assets/curso/tema6/t6-17.png', alt='Texto que describa la imagen')
@@ -271,7 +271,7 @@
               figure
                 img(src='@/assets/curso/tema6/t6-29.svg', alt='Texto que describa la imagen')
             .col-12.col-md-12.col-lg-7
-              p En el siguiente video podrá ver un ejemplo de cómo una empresa de gran impacto en el mercado a nivel mundial pone en práctica, todos y cada uno de los elementos mencionados en este componente formativo para además de hacer una gran venta, seguir en contacto con sus clientes mediante elementos claves o principios de posventa. 
+              p En el siguiente video podrá contemplar un ejemplo de cómo una empresa de gran impacto en el mercado a nivel mundial pone en práctica, todos y cada uno de los elementos mencionados en este componente formativo para además de hacer una gran venta, seguir en contacto con sus clientes mediante elementos claves o principios de posventa. 
               a.anexo.mb-4.mb-lg-0(href="https://www.youtube.com/watch?v=yqyttSMc7ac" target="_blank")
                 .anexo__icono
                   img(src="@/assets/template/icono-link.svg")
@@ -297,7 +297,7 @@ export default {
         titulo:
           'Realizar un seguimiento y comunicación constante con el cliente',
         texto:
-          'Mantener un servicio posventa eficiente es estar en contacto constante con el cliente para lograr determinar si la compra fue plenamente satisfactoria, cuáles fueron los puntos fuertes y débiles, además de conocer los aspectos a mejorar.<br><br> Esta constante comunicación sirve para analizar el sector y el escenario y también  para generarle al cliente una sensación de cercanía, que su opinión y su plena satisfacción importa.<br><br> Esta puede realizarse correos electrónicos, llamadas, redes sociales, entre otros medios que las empresas encuentren pertinentes para su correcto desarrollo y comunicación.',
+          'Mantener un servicio posventa eficiente es estar en contacto constante con el cliente para lograr determinar si la compra fue plenamente satisfactoria, cuáles fueron los puntos fuertes y débiles, además de conocer los aspectos a mejorar.<br><br> Esta constante comunicación sirve para analizar el sector y el escenario y también  para generarle al cliente una sensación de cercanía, que su opinión y su plena satisfacción son importantes.<br><br> Esta puede realizarse por correos electrónicos, llamadas, redes sociales, entre otros medios que las empresas encuentren pertinentes para su correcto desarrollo y comunicación.',
         icono: require('@/assets/curso/tema6/t6-11.svg'),
       },
       {

@@ -54,7 +54,7 @@
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
               h3.mb-1 Técnicas para la resolución de conflictos
-              p.text-small Como parte de su aprendizaje autónomo le invito a ver el video Técnicas para resolución de conflictos y así complementar la temática vista sobre la resolución de conflictos:  
+              p Como parte de su aprendizaje autónomo le invito a ver el video Técnicas para resolución de conflictos y así complementar la temática vista sobre la resolución de conflictos:  
             .col-sm-auto.justify-content-center.d-flex
               a.boton.color-acento-botones.texto-blanco(href="https://www.youtube.com/watch?v=B9HPVnE-xMk&ab_channel=WendyEspa%C3%B1a " target="_blank")
                 span ver más
@@ -173,7 +173,7 @@
             .row
               .col-md-12.px-4
                 span.mb-0.text-bold 01. Índice de satisfacción al cliente 
-                p.mb-0 Es el indicador más común y complejo de analizar. Su objetivo es conocer las emociones del cliente sobre el producto o servicio que se le ofrece. Se realiza sobre la puntuación que les dan los clientes a determinados ítems, como calidad en la atención, satisfacción de la compra del producto o servicio, atención recibida por parte del cliente, y otros aspectos que se deseen evaluar; para esta medición se usan escalas definidas por estrellas, números o calificativos, de manera que al cliente le sea fácil calificar cada ítem (Samsing, 2021)
+                p.mb-0 Es el indicador más común y complejo de analizar. Su objetivo es conocer las emociones del cliente sobre el producto o servicio que se le ofrece. Se realiza sobre la puntuación que les dan los clientes a determinados ítems, como calidad en la atención, satisfacción de la compra del producto o servicio, atención recibida por parte del cliente, y otros aspectos que se deseen evaluar; para esta medición se usan escalas definidas por estrellas, números o calificativos, de manera que al cliente le sea fácil calificar cada ítem (Samsing, 2021).
             .row
               .col-md-12.px-4
                 span.mb-0.text-bold 02. Tiempo de respuesta  

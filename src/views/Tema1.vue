@@ -301,7 +301,7 @@
         figure
           img(src='@/assets/curso/tema1/t1-18.png', alt='Texto que describa la imagen')
         div.p-3.bgr_13
-          p.mb-0.text-small Universidad Nacional de Colombia, primera en generar conocimiento en el país.
+          p.mb-0 Universidad Nacional de Colombia, primera en generar conocimiento en el país.
         div.p-4.bgr_11
           ul.lista-ul--color
             li.d-flex.align-items-start.mb-2
@@ -328,7 +328,7 @@
         figure
           img(src='@/assets/curso/tema1/t1-19.png', alt='Texto que describa la imagen')
         div.p-3.bgr_13
-          p.mb-0.text-small Aprendizaje a lo largo de la vida, actitud del profesional del siglo XXI.
+          p.mb-0 Aprendizaje a lo largo de la vida, actitud del profesional del siglo XXI.
         div.p-4.bgr_12
           ul.lista-ul--color
             li.d-flex.align-items-start.mb-2

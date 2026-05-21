@@ -319,16 +319,6 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Mario Morales Cabrera',
-          cargo: 'Experto Temático',
-          centro: 'Centro de Comercio y Servicios - Regional Atlántico',
-        },
-        {
-          nombre: 'Jair Coll Gallardo',
-          cargo: 'Evaluador Instruccional',
-          centro: 'Centro de Comercio y Servicios - Regional Atlántico',
-        },
-        {
           nombre: 'Rafael Neftalí Lizcano Reyes',
           cargo: 'Asesor metodológico y pedagógico',
           centro:
@@ -363,11 +353,6 @@ export default {
         {
           nombre: 'Andrés Felipe Velandia Espitia',
           cargo: 'Asesor metodológico',
-          centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
-        },
-        {
-          nombre: 'José Gabriel Ortiz Abella',
-          cargo: 'Corrector de estilo',
           centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
         },
       ],
@@ -428,60 +413,6 @@ export default {
         {
           nombre: 'Erika Viviana Sandoval Rojas',
           cargo: 'Producción audiovisual',
-          centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-        },
-        {
-          nombre: 'Francisco José Lizcano Reyes',
-          cargo: 'Responsable del equipo',
-          centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-        },
-        {
-          nombre: 'Leyson Fabian Castaño Perez',
-          cargo: 'Soporte organizacional',
-          centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-        },
-        {
-          nombre: 'María Natalia Maldonado Delgado',
-          cargo: 'Diseño web',
-          centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-        },
-        {
-          nombre: 'Miguel Guerrero Gutiérrez',
-          cargo: 'Ilustración',
-          centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-        },
-        {
-          nombre: 'Ludwyng Corzo García',
-          cargo: 'Producción audiovisual',
-          centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-        },
-        {
-          nombre: 'John Jairo Arciniegas González',
-          cargo: 'Producción audiovisual',
-          centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-        },
-        {
-          nombre: 'Carlos Eduardo Garavito Parada',
-          cargo: 'Producción audiovisual',
-          centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-        },
-        {
-          nombre: 'Carlos Andrés Díaz Pinto',
-          cargo: 'Desarrollo front-end',
-          centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-        },
-        {
-          nombre: 'Veimar Celis Melendez',
-          cargo: 'Validación de diseño y contenido',
           centro:
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },

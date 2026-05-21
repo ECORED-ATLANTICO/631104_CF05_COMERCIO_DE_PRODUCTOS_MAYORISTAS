@@ -19,9 +19,10 @@
         .titulo-sexto.color-acento-contenido.mb-3
           h5 Figura 2
           span Tratamiento de datos
-        figure
+        figure.mb-3
           img(src='@/assets/curso/tema3/t3-2.svg', class="img-fluid d-none d-lg-block", alt='Texto que describa la imagen')
           img(src='@/assets/curso/tema3/t3-2-m.svg', class="img-fluid d-block d-lg-none", alt='Texto que describa la imagen')
+        figcaption(style="font-weight: normal") Nota. SENA, (2026).
 
     p Por información confidencial se entiende la comunicación personal o los datos relacionados con la actividad de una organización que es desconocida para el público y solo se comparte entre unas pocas personas. Esta llega a manos de las diferentes entidades a través de su trabajo.
     p.mb-5 Algunos ejemplos comunes de información confidencial son, entre otros, los siguientes:
@@ -90,7 +91,7 @@
                 img(src="@/assets/curso/tema3/t3-5.png", class="img-fluid")
             .crd_hover_txt--body.color-acento-botones.p4
               h5.mb-4.text-center Encargado del tratamiento
-              p.mb-2.text-center “Persona natural o jurídica, pública o privada, que por sí misma o en asocio con otros, realice el Tratamiento de datos personales por cuenta del responsable del tratamiento”.
+              p.mb-2.text-center “Persona natural o jurídica, pública o privada, que por sí misma o en asocio con otros, realice el tratamiento de datos personales por cuenta del responsable del tratamiento”.
 
     .row.mb-5.justify-content-center.align-items-center
       .col-12.col-md-12.col-lg-10(data-aos="flip-up")
@@ -127,7 +128,7 @@
         figure
           img(src='@/assets/curso/tema3/t3-9.png', alt='Texto que describa la imagen')
     
-    p.mb-5 Aquí es de vital importancia aclarar que una gran herramienta que apoya la analítica de datos son los diferentes <em>softwares</em> especializados o herramientas ofimáticas que se encuentran en el mercado, dado que los datos que generalmente se procesan en analítica de datos o el <em>big data</em> son semiestructurados o estructurados y tienen diferentes orígenes, por lo que hoy por hoy las empresas deben hacer uso de sistemas que les permitan manejar grandes cantidades de información con el objetivo de tomar decisiones a tiempo y estar a la vanguardia en un mundo totalmente globalizado, lo anterior lleva a que estás tenga grandes beneficios, tales como:
+    p.mb-5 Aquí es de vital importancia aclarar que una gran herramienta que apoya la analítica de datos son los diferentes <em>softwares</em> especializados o herramientas ofimáticas que se encuentran en el mercado, dado que los datos que generalmente se procesan en analítica de datos o <em>big data</em> son semiestructurados o estructurados y tienen diferentes orígenes, por lo que hoy por hoy las empresas deben hacer uso de sistemas que les permitan manejar grandes cantidades de información con el objetivo de tomar decisiones a tiempo y estar a la vanguardia en un mundo totalmente globalizado, lo anterior lleva a que estás tenga grandes beneficios, tales como:
 
     ul.lista-ul--color.mb-3
       li.d-flex.align-items-start.mb-2
@@ -167,7 +168,7 @@
           img(src='@/assets/curso/tema3/t3-12.png', alt='Texto que describa la imagen')
       .col-12.col-md-12.col-lg-8(data-aos="fade-left")
         p El análisis de datos o <em>Big Data</em> es muy aplicado debido a los análisis cualitativos, ya que se realiza el análisis de datos numéricos, los cuales tienen variables que pueden ser cuantificables, pueden compararse y medirse a través de la estadística, es de anotar que el análisis cualitativo es de carácter interpretativo, es decir que se hace a través de interpretaciones de los resultados estadísticos, basados en la comprensión que se haga de los datos que no son numéricos. 
-        p.mb-0 En el análisis de <em>Big Data</em>, se nos presentan los datos. No se puede diseñar un experimento que cumpla con un modelo estadístico favorito. En las aplicaciones de analítica a gran escala, se necesita una gran cantidad de trabajo, normalmente el 80% del esfuerzo solo para limpiar los datos, de modo que puedan ser utilizados por un modelo de aprendizaje automático.
+        p.mb-0 En el análisis de <em>Big Data</em>, se nos presentan los datos. No se puede diseñar un experimento que cumpla con un modelo estadístico favorito. En las aplicaciones de analítica a gran escala, se necesita una gran cantidad de trabajo, normalmente el 80 % del esfuerzo solo para limpiar los datos, de modo que puedan ser utilizados por un modelo de aprendizaje automático.
 
     p No hay una metodología única a seguir en las aplicaciones reales a gran escala. Normalmente, una vez definido el problema de negocio, se necesita una etapa de investigación para diseñar la metodología a utilizar. Sin embargo, es relevante mencionar unas pautas generales que se aplican a casi todos los problemas.
     p Una de las tareas más importantes en el análisis de <em>Big Data</em> es el modelado estadístico, es decir, los problemas de clasificación o regresión supervisados y no supervisados. Una vez que los datos se han limpiado y pre-procesado, ya están disponibles para el modelado, se debe tener cuidado en la evaluación de diferentes modelos con métricas de pérdida razonables y luego, una vez que el modelo se implementa, se debe informar de la evaluación y los resultados. Un error común en la modelización predictiva es limitarse a implementar el modelo y no medir nunca su rendimiento.
@@ -213,9 +214,10 @@
         .titulo-sexto.color-acento-contenido.mb-5
           h5 Figura 3
           span Responsabilidades manejo de datos
-        figure
+        figure.mb-3
           img(src='@/assets/curso/tema3/t3-14.svg', class="img-fluid d-none d-lg-block", alt='Texto que describa la imagen')
           img(src='@/assets/curso/tema3/t3-14-m.svg', class="img-fluid d-block d-lg-none", alt='Texto que describa la imagen')
+        figcaption(style="font-weight: normal") Nota. SENA, (2026).
 
     p.mb-5 Por otro lado, ninguna entidad puede hacer uso de esta información sin el permiso y autorización del dueño. La empresa o persona que sin la debida autorización realice uso de datos individuales recibirá una sanción y multa. Es por ello, que continuamente piden una aceptación una vez que se firma un contrato o se hace una compra.
 

@@ -19,9 +19,10 @@
         .titulo-sexto.color-acento-contenido.mb-5
           h5 Figura 1
           span Procesamiento de datos
-        figure
+        figure.mb-3
           img(src='@/assets/curso/tema2/t2-2.svg', class="img-fluid d-none d-lg-block", alt='Texto que describa la imagen')
           img(src='@/assets/curso/tema2/t2-2-m.svg', class="img-fluid d-block d-lg-none", alt='Texto que describa la imagen')
+        figcaption(style="font-weight: normal") Nota. SENA, (2026). 
 
     .row.mb-5.justify-content-center
       .col-12.col-md-12.col-lg-7.order-2.order-lg-1.bg_grad-03.mb-3(data-aos="fade-up-right")
@@ -43,7 +44,7 @@
             .col-md-12.col-lg-10(data-aos="fade-left")
               h3 Recogida
               p La recogida de datos brutos es el primer paso del ciclo de procesamiento. El tipo de datos brutos recogidos tiene un gran impacto en el resultado obtenido. Por lo tanto, estos deben recogerse de fuentes definidas y precisas para que los resultados posteriores sean válidos y utilizables. 
-              p.mb-0 Los datos brutos pueden incluir cifras monetarias, cookies de sitios web, estados de pérdidas y ganancias de una empresa, comportamiento de los usuarios, etc.
+              p.mb-0 Los datos brutos pueden incluir cifras monetarias, <em>cookies</em> de sitios web, estados de pérdidas y ganancias de una empresa, comportamiento de los usuarios, etc.
           .row
             .col-md-12.col-lg-10.order-2.order-lg-1(data-aos="fade-right")
               h3 Preparación
@@ -88,8 +89,8 @@
           .col-md-12.col-lg-4.p-4
             h4.mb-5 Procesamiento manual de datos 
             p En este método los datos se procesan manualmente. 
-            p Todo el proceso de recopilación de datos, filtrado, clasificación, cálculo y otras operaciones lógicas se realiza con intervención humana, sin utilizar ningún otro dispositivo electrónico o software de automatización.
-            p.mb-0 Es un método de bajo coste y no requiere apenas herramientas, pero produce grandes errores, altos costes de mano de obra y mucho tiempo.
+            p Todo el proceso de recopilación de datos, filtrado, clasificación, cálculo y otras operaciones lógicas se realiza con intervención humana, sin utilizar ningún otro dispositivo electrónico o <em>software</em> de automatización.
+            p.mb-0 Es un método de bajo coste y no requiere herramientas, pero produce grandes errores, altos costes de mano de obra y mucho tiempo.
           .col-md-10.col-lg-8.p-4
             figure
               img(src='@/assets/curso/tema2/t2-10.png', alt='Texto que describa la imagen')
@@ -168,9 +169,9 @@
         .col-md-12.col-lg-8.mb-3.align-items-center.p-4
           p La simple observación es útil y factible cuando se trata de conocer hechos o situaciones que de alguna manera tienen cierto carácter público, o que al menos no pertenecen estrictamente a la esfera del comportamiento privado de los individuos. 
           p Es viable mediante este procedimiento conocer los hábitos de compra, el  comportamiento político o los hábitos de las personas observadas como son: 
-          p.mb-0.text-bold •	Hábitos de vestimenta,
-          p.mb-0.text-bold •	Asistencia a lugares públicos y
-          p.text-bold •	Comportamiento social, etc. 
+          p.mb-0.text-bold Hábitos de vestimenta,
+          p.mb-0.text-bold Asistencia a lugares públicos y
+          p.text-bold Comportamiento social, etc. 
           p.mb-0 Los datos obtenidos apuntan casi siempre a los aspectos más superficiales o visibles de la realidad social, aunque  esto no significa que carezcan de importancia.
         .col-md-6.col-lg-4
           figure

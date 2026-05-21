@@ -52,7 +52,7 @@
             figure.d-flex.justify-content-center
               img.img100(src='@/assets/curso/tema4/t4-4.svg', alt='Texto que describa la imagen')  
           .col-12.col-md-10.d-flex.align-items-center
-            p.mb-0 Si ocho clientes indican que les gusta la empresa, este sería un dato expresado en frecuencia absoluta; sin embargo, también podrían decir esto en términos relativos indicando que el 80% de los clientes sienten agrado por la empresa.
+            p.mb-0 Si ocho clientes indican que les gusta la empresa, este sería un dato expresado en frecuencia absoluta; sin embargo, también podrían decir esto en términos relativos indicando que el 80 % de los clientes sienten agrado por la empresa.
     
     p En este apartado, se detalla el tema de las mediciones desde la perspectiva de experiencia al cliente (<em>Customer Experience</em>) también conocida como CX (por sus siglas en inglés), la cual se interpreta como la relación de una empresa con sus clientes en todos los aspectos del recorrido de compra; en resumen, es la suma total de todas las interacciones que un cliente tiene con la marca. 
 
@@ -71,7 +71,7 @@
     .row.mb-5.justify-content-center
       .col-12.col-md-12.col-lg-8.order-2.order-lg-1(data-aos="fade-right")
         p Estos corresponden a investigaciones de mercado que realizan las empresas para medir el nivel de satisfacción de sus clientes con la marca, sus productos, sus procesos e incluso sus colaboradores. Usualmente, se realizan de forma periódica para poder comparar la evolución, por lo general se recomienda que se realice mínimo una vez al año y ojalá a través de una agencia de investigación de mercados para transmitir mayor transparencia y respaldo de las cifras.
-        p.mb-0 Los estudios de satisfacción de clientes tienen por  fin revelar un índice de satisfacción, el cual como se mencionó previamente podrá ser un número expresado en frecuencia absoluta, que dependiendo de la metodología abordada podrá ser una cifra entre: 1 a 5, o entre 1 a 10; en términos porcentuales dicho valor podrá estar entre 0% y 100%, en este sentido, cuanto más alto sea el número implicará mayor nivel de satisfacción por parte de los clientes. 
+        p.mb-0 Los estudios de satisfacción de clientes tienen por  fin revelar un índice de satisfacción, el cual como se mencionó previamente podrá ser un número expresado en frecuencia absoluta, que dependiendo de la metodología abordada podrá ser una cifra entre: 1 a 5, o entre 1 a 10; en términos porcentuales dicho valor podrá estar entre 0 % y 100 %, en este sentido, cuanto más alto sea el número implicará mayor nivel de satisfacción por parte de los clientes. 
       .col-12.col-md-8.col-lg-4.order-1.order-lg-2-mb-3.mb-3(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema4/t4-5.png', alt='Texto que describa la imagen')   
@@ -81,15 +81,16 @@
     .row.mb-5.justify-content-center
       .col-12.col-md-12.col-lg-6.d-flex.align-items-center.bg_grad-07.mb-3.mb-3
         div
-          p Otro ejemplo muestra lo siguiente: la empresa Importados E.U. informa en medios que su indicador fue del 82%, mientras que la organización Mayoreo S.A.S. menciona que su índice fue del 77%, en este sentido, la empresa Importados E.U. tiene mejores indicadores de cliente.
+          p Otro ejemplo muestra lo siguiente: la empresa Importados E.U. informa en medios que su indicador fue del 82 %, mientras que la organización Mayoreo S.A.S. menciona que su índice fue del 77 %, en este sentido, la empresa Importados E.U. tiene mejores indicadores de cliente.
           p.mb-0 Desde esta perspectiva de estudios de satisfacción, se tienen algunas bases, para comprender mejor los resultados, clasificando los diferentes tipos de resultados posibles en niveles. Para mejor comprensión, en la siguiente figura se detallan estos referentes, tanto desde la perspectiva de frecuencias absolutas como relativas:
       .col-12.col-md-12.col-lg-4
         .titulo-sexto.color-acento-botones.mb-3
           h5 Figura 4
           span Asociación entre rangos y escalas de satisfacción
-        figure
+        figure.mb-3
           img(src='@/assets/curso/tema4/t4-6.svg', alt='Texto que describa la imagen')   
-  
+        figcaption(style="font-weight: normal") Nota. SENA, (2026).
+
     .row.mb-5(data-aos="fade-right")
       .col-10.col-lg-4.position-relative
         h3.p-3.bgr.text-center Estudios de recomendación de clientes
