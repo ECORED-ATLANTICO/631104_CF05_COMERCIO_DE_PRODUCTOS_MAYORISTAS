@@ -304,7 +304,7 @@ export default {
     },
     {
       referencia:
-        'UIAF. (2008). Ley Estatutaria 1266 de 2008.<em> Por la cual se dictan las disposiciones generales de Habeas Data.</em>',
+        'UIAF. (2008). <em>Ley Estatutaria 1266 de 2008. Por la cual se dictan las disposiciones generales de Habeas Data.</em>',
       link: '',
     },
   ],

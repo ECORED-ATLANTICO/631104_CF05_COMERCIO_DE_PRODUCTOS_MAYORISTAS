@@ -61,7 +61,7 @@
     .row.mb-5.justify-content-center
       .col-12.col-md-12.col-lg-6.order-2.order-lg-1bg_grad-10.mb-3.mb-md-0.d-flex.align-items-center(data-aos="fade-right")
         div
-          p El valor de la posventa, 	en ocasiones, es desestimado por empresas detallistas que utilizan el valor de las marcas que ofrecen como respaldo y garantías de que son empresas con credibilidad. Por otro lado, la posventa es de vital importancia y juega uno de los papeles más importantes de las empresas mayoristas, pues aquí es donde se marca una ruta, se forma y toma un norte comercial, además de conocer perfectamente su sector, si necesita realizar ajustes, modificaciones y correcciones de calidad, todo con el fin de general fidelización y estabilidad en el mercado.
+          p El valor de la posventa, 	en ocasiones, es desestimado por empresas detallistas que utilizan el valor de las marcas que ofrecen como respaldo y garantías de que son empresas con credibilidad. Por otro lado, la posventa es de vital importancia y juega uno de los papeles más importantes de las empresas mayoristas, pues aquí es donde se marca una ruta, se forma y toma un norte comercial, además de conocer perfectamente su sector, si necesita realizar ajustes, modificaciones y correcciones de calidad, todo con el fin de generar fidelización y estabilidad en el mercado.
           p.mb-5 Actualmente, aunque el servicio posventa es de vital importancia, dando como prioridad la obtención de clientes leales a la marca, las empresas están invirtiendo sus esfuerzos en la consecución de nuevos clientes, y tanto la fidelización como la consecución de las estas nuevas entradas, deben ser realizadas a la par, con la misma fuerza e intensidad para no descuidar el rumbo de la empresa. 
       .col-12.col-md-6.col-lg-4.order-1.order-lg-2.mb-3(data-aos="fade-left")
         figure
@@ -90,7 +90,7 @@
             figure
               img.img80(src='@/assets/curso/tema6/t6-8.svg', alt='Texto que describa la imagen')
         h2.text-center Psicológicos  
-        p Enfocados en la parte motivacional del cliente y en esa sensación que las empresas deben transmitir que el cliente les importa .
+        p Enfocados en la parte motivacional del cliente y en esa sensación que las empresas deben transmitir que el cliente les importa.
       .col-md-6.col-lg-6.col-xl-3.tarjeta.bgr_29_1.p-5.mb-3
         .row.justify-content-center.mb-4
           .col-6

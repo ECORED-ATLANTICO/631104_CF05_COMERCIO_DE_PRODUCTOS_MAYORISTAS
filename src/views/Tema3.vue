@@ -20,8 +20,8 @@
           h5 Figura 2
           span Tratamiento de datos
         figure.mb-3
-          img(src='@/assets/curso/tema3/t3-2.svg', class="img-fluid d-none d-lg-block", alt='Texto que describa la imagen')
-          img(src='@/assets/curso/tema3/t3-2-m.svg', class="img-fluid d-block d-lg-none", alt='Texto que describa la imagen')
+          img(src='@/assets/curso/tema3/t3-2.svg', class="img-fluid d-none d-lg-block", alt='Diagrama circular con seis elementos del contenido de una política de tratamiento de información: derechos del titular, responsable de peticiones, procedimiento de actualización, vigencia, datos del responsable y tratamiento de datos.')
+          img(src='@/assets/curso/tema3/t3-2-m.svg', class="img-fluid d-block d-lg-none", alt='Diagrama circular con seis elementos del contenido de una política de tratamiento de información: derechos del titular, responsable de peticiones, procedimiento de actualización, vigencia, datos del responsable y tratamiento de datos.')
         figcaption(style="font-weight: normal") Nota. SENA, (2026).
 
     p Por información confidencial se entiende la comunicación personal o los datos relacionados con la actividad de una organización que es desconocida para el público y solo se comparte entre unas pocas personas. Esta llega a manos de las diferentes entidades a través de su trabajo.
@@ -181,7 +181,7 @@
     .row.mb-3.justify-content-center.align-items-center
       .col-12.col-md-12.col-lg-7.order-2.order-lg-1d-flex.align-items-center.bg_grad-06(data-aos="fade-right")
         div
-          p El manejo de datos se regula mediante el derecho de <em>Habeas Data</em>, el cual por el cual en Colombia se autoriza a los habitantes residentes a actualizar, conocer, y rectificar toda la información que tengan las distintas entidades y bases de datos del territorio nacional.  Este derecho nació como parte importante de los artículos 15 y 20 de la Constitución Política, los cuales más adelante, fueron desarrollados como un derecho autosuficiente y sin dependencia, que disfrutan todos los colombianos hoy en día. 
+          p El manejo de datos se regula mediante el derecho de <em>Habeas Data</em>, el cual en Colombia se autoriza a los habitantes residentes a actualizar, conocer, y rectificar toda la información que tengan las distintas entidades y bases de datos del territorio nacional.  Este derecho nació como parte importante de los artículos 15 y 20 de la Constitución Política, los cuales más adelante, fueron desarrollados como un derecho autosuficiente y sin dependencia, que disfrutan todos los colombianos hoy en día. 
       .col-12.col-md-6.col-lg-3.order-1.order-lg-2.mb-3(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema3/t3-13.png', alt='Texto que describa la imagen')

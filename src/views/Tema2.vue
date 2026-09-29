@@ -334,7 +334,7 @@
         .col-md-12.col-lg-8.mb-3.p-4
           p La puntualidad se refiere a la actualidad de la información. Si se ha recogido en la última hora, es oportuna, a menos que haya llegado información nueva que haga inútil la anterior. 
           p La puntualidad de la información es una característica importante de la calidad de los datos, porque la información que no es oportuna puede llevar a las personas a tomar decisiones equivocadas. A su vez, esto cuesta a las organizaciones tiempo, dinero y daños a la reputación.
-          p "La puntualidad es una característica importante de la calidad de los datos: la información desactualizada cuesta tiempo y dinero a las empresas“.
+          p La puntualidad es una característica importante de la calidad de los datos: la información desactualizada cuesta tiempo y dinero a las empresas.
         .col-md-6.col-lg-4.mb-3
           figure
             img(src='@/assets/curso/tema2/t2-33.png', alt='Texto que describa la imagen')

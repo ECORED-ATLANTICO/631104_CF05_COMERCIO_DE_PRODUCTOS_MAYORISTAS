@@ -117,7 +117,7 @@
         h4 Nivel 3. Esperado
         p.mb-3 En este nivel se presta un servicio que no tiene nada de especial, no ofrece garantías para la posventa. 
     
-    p.mb-5 Ahora, se hace necesario revisar los niveles de cumplimientos en el caso del cliente, por lo que en a continuación se podrán revisar los requerimientos:
+    p.mb-5 Ahora, se hace necesario revisar los niveles de cumplimientos en el caso del cliente, por lo que a continuación se podrán revisar los requerimientos:
 
     AcordionA.bgr_9_1(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
       .row(titulo="Claridad en las expectativas").p-4.justify-content-center
