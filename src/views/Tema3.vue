@@ -22,7 +22,6 @@
         figure.mb-3
           img(src='@/assets/curso/tema3/t3-2.svg', class="img-fluid d-none d-lg-block", alt='Diagrama circular con seis elementos del contenido de una política de tratamiento de información: derechos del titular, responsable de peticiones, procedimiento de actualización, vigencia, datos del responsable y tratamiento de datos.')
           img(src='@/assets/curso/tema3/t3-2-m.svg', class="img-fluid d-block d-lg-none", alt='Diagrama circular con seis elementos del contenido de una política de tratamiento de información: derechos del titular, responsable de peticiones, procedimiento de actualización, vigencia, datos del responsable y tratamiento de datos.')
-        figcaption(style="font-weight: normal") Nota. SENA, (2026).
 
     p Por información confidencial se entiende la comunicación personal o los datos relacionados con la actividad de una organización que es desconocida para el público y solo se comparte entre unas pocas personas. Esta llega a manos de las diferentes entidades a través de su trabajo.
     p.mb-5 Algunos ejemplos comunes de información confidencial son, entre otros, los siguientes:
@@ -217,7 +216,6 @@
         figure.mb-3
           img(src='@/assets/curso/tema3/t3-14.svg', class="img-fluid d-none d-lg-block", alt='La figura 3 muestra diagrama sobre responsabilidades manejo de datos donde describe: intervinientes en el derecho: pasivos (responsables del tratamiento de datos, usuarios, encargado del tratamiento), activos (titular del dato). Desde “intervinientes en el derecho” se deriva “Habeas Data”, relacionado con:  titular del derecho (personas físicas), gerente del derecho (Superintendencia de Industria y Comercio). ')
           img(src='@/assets/curso/tema3/t3-14-m.svg', class="img-fluid d-block d-lg-none", alt='La figura 3 muestra diagrama sobre responsabilidades manejo de datos donde describe: intervinientes en el derecho: pasivos (responsables del tratamiento de datos, usuarios, encargado del tratamiento), activos (titular del dato). Desde “intervinientes en el derecho” se deriva “Habeas Data”, relacionado con:  titular del derecho (personas físicas), gerente del derecho (Superintendencia de Industria y Comercio). ')
-        figcaption(style="font-weight: normal") Nota. SENA, (2026).
 
     p.mb-5 Por otro lado, ninguna entidad puede hacer uso de esta información sin el permiso y autorización del dueño. La empresa o persona que sin la debida autorización realice uso de datos individuales recibirá una sanción y multa. Es por ello, que continuamente piden una aceptación una vez que se firma un contrato o se hace una compra.
 

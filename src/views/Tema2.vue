@@ -22,7 +22,6 @@
         figure.mb-3
           img(src='@/assets/curso/tema2/t2-2.svg', class="img-fluid d-none d-lg-block", alt='Texto que describa la imagen')
           img(src='@/assets/curso/tema2/t2-2-m.svg', class="img-fluid d-block d-lg-none", alt='Texto que describa la imagen')
-        figcaption(style="font-weight: normal") Nota. SENA, (2026). 
 
     .row.mb-5.justify-content-center
       .col-12.col-md-12.col-lg-7.order-2.order-lg-1.bg_grad-03.mb-3(data-aos="fade-up-right")

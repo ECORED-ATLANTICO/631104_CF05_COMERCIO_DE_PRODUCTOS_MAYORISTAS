@@ -191,7 +191,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/CFA5_631104_DU.zip',
+        download: 'downloads/631104_CFA05_CFA.zip',
       },
       {
         icono: 'fas fa-download',
@@ -287,24 +287,24 @@ export default {
   referencias: [
     {
       referencia:
-        'Ministerio de Tecnologías de la Información y las Comunicaciones. (2013). <em>Decreto 1377 de 2013. Por el cual se reglamenta parcialmente la Ley 1581 de 2012.</em>',
+        'Ministerio de Tecnologías de la Información y las Comunicaciones. (2013). Decreto 1377 de 2013. Por el cual se reglamenta parcialmente la Ley 1581 de 2012.',
       link: '',
     },
     {
       referencia:
-        'Portafolio. (s. f.).<em> Servicio posventa, tan importante como las características de bienes o servicios ofrecidos al cliente.</em>',
+        'Portafolio. (s. f.). Servicio posventa, tan importante como las características de bienes o servicios ofrecidos al cliente.',
       link:
         'https://www.portafolio.co/economia/finanzas/servicio-posventa-importante-caracteristicas-bienes-servicios-ofrecidos-cliente-243638',
     },
     {
       referencia:
-        'Samsing, C. (2021).<em> Principales indicadores de servicio posventa.<em>',
+        'Samsing, C. (2021).Principales indicadores de servicio posventa.',
       link:
         'https://blog.nubox.com/empresas/indicadores-de-servicio-post-venta',
     },
     {
       referencia:
-        'UIAF. (2008). <em>Ley Estatutaria 1266 de 2008. Por la cual se dictan las disposiciones generales de Habeas Data.</em>',
+        'UIAF. (2008). Ley Estatutaria 1266 de 2008. Por la cual se dictan las disposiciones generales de Habeas Data.',
       link: '',
     },
   ],
@@ -315,7 +315,7 @@ export default {
         {
           nombre: 'Claudia Johanna Gómez Pérez',
           cargo:
-            'Responsable del Ecosistema de Recursos Educativos Digitales (RED)',
+            'Profesional G06. Responsable Ecosistema Virtual de Recursos Educativos Digitales',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
@@ -433,12 +433,12 @@ export default {
       autores: [
         {
           nombre: 'Luz Karime Amaya Cabra',
-          cargo: 'Evaluador de contenidos inclusivos y accesibles',
+          cargo: 'Evaluadora de contenidos inclusivos y accesibles',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
         {
           nombre: 'Laura Daniela Burgos Rueda',
-          cargo: 'Evaluador de contenidos inclusivos y accesibles',
+          cargo: 'Evaluadora de contenidos inclusivos y accesibles',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
         {
@@ -448,7 +448,7 @@ export default {
         },
         {
           nombre: 'Karine Isabel Ospino Fritz',
-          cargo: 'Validador y vinculador de recursos digitales',
+          cargo: 'Validadora y vinculadora de recursos digitales',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
       ],
@@ -456,7 +456,7 @@ export default {
   ],
   creditosAdicionales: {
     imagenes:
-      'Fotografías y vectores tomados de <a href="https://www.magnific.com/es" target="_blank">www.freepik.es</a>, <a href="https://www.shutterstock.com/" target="_blank">www.shutterstock.com</a>, <a href="https://unsplash.com/" target="_blank">unsplash.com </a>y <a href="https://www.flaticon.com/" target="_blank">www.flaticon.com</a>',
+      'Fotografías y vectores tomados de <a href="https://www.magnific.com/es" target="_blank">www.magnific.com</a>, <a href="https://www.shutterstock.com/" target="_blank">www.shutterstock.com</a>, <a href="https://unsplash.com/" target="_blank">unsplash.com </a>y <a href="https://www.flaticon.com/" target="_blank">www.flaticon.com</a>',
     creativeCommons:
       'Licencia creative commons CC BY-NC-SA<br><a href="https://creativecommons.org/licenses/by-nc-sa/2.0/" target="_blank">ver licencia</a>',
   },
